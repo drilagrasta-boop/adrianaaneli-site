@@ -1,0 +1,21 @@
+---
+const links = [
+  ['/textos/', 'Textos'],
+  ['/livros/', 'Livros'],
+  ['/resenhas/', 'Resenhas'],
+  ['/fortuna/', 'Fortuna literária'],
+  ['/sobre/', 'Sobre a autora'],
+  ['/contato/', 'Contato'],
+];
+---
+<header>
+  <a class="marca" href="/">Adriana Aneli</a>
+  <nav>{links.map(([href, label]) => <a href={href}>{label}</a>)}</nav>
+</header>
+<style>
+  header { text-align: center; padding: 2.5rem 1rem 1.5rem; border-bottom: 1px solid var(--cor-linha); }
+  .marca { font-family: var(--fonte-titulo); font-size: 2rem; color: var(--cor-tinta); text-decoration: none; display: block; margin-bottom: 0.75rem; }
+  nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 1.4rem; }
+  nav a { color: var(--cor-tinta-suave); text-decoration: none; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  nav a:hover { color: var(--cor-detalhe); }
+</style>

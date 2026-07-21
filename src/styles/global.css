@@ -1,0 +1,65 @@
+@import '@fontsource/eb-garamond/400.css';
+@import '@fontsource/eb-garamond/400-italic.css';
+@import '@fontsource/eb-garamond/600.css';
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/600.css';
+
+:root {
+  --cor-fundo: #faf6ee;        /* creme */
+  --cor-papel: #fffdf8;        /* cartões */
+  --cor-tinta: #2b2620;        /* texto principal */
+  --cor-tinta-suave: #6b6156;  /* texto secundário */
+  --cor-detalhe: #7a3b2e;      /* bordô — links e acentos */
+  --cor-linha: #e4dccb;        /* bordas */
+  --fonte-texto: 'EB Garamond', Georgia, serif;
+  --fonte-titulo: 'Cormorant Garamond', Georgia, serif;
+  --largura-leitura: 42rem;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 112.5%; }   /* 18px base — conforto de leitura */
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-tinta);
+  font-family: var(--fonte-texto);
+  line-height: 1.65;
+}
+h1, h2, h3 { font-family: var(--fonte-titulo); font-weight: 600; line-height: 1.15; }
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.6rem; }
+a { color: var(--cor-detalhe); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+
+main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+.wide { max-width: 64rem; }
+
+.prose p { margin: 0 0 1em; }
+.prose em { font-style: italic; }
+
+.poema { text-align: center; }
+.poema p { margin: 0 0 1.4em; }
+.poema .aquarela { max-width: 100%; border-radius: 4px; margin: 0 auto 2rem; display: block; }
+
+.meta { color: var(--cor-tinta-suave); font-size: 0.85rem; letter-spacing: 0.04em; }
+.card {
+  background: var(--cor-papel);
+  border: 1px solid var(--cor-linha);
+  border-radius: 6px;
+  padding: 1.25rem;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid var(--cor-detalhe);
+  color: var(--cor-detalhe);
+  padding: 0.5rem 1.1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.btn:hover { background: var(--cor-detalhe); color: var(--cor-papel); }
+
+@media print {
+  header, footer, .no-print { display: none !important; }
+  body { background: #fff; }
+}
