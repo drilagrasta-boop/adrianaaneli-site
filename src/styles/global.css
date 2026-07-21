@@ -30,6 +30,7 @@ h1 { font-size: 2.4rem; }
 h2 { font-size: 1.6rem; }
 a { color: var(--cor-detalhe); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { text-decoration-thickness: 2px; }
+img { max-width: 100%; height: auto; }
 
 main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 4rem; }
 .wide { max-width: 64rem; }

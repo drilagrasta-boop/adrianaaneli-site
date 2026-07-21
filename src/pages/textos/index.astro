@@ -13,7 +13,9 @@ const grupos = [
 <Base title="Textos">
   <h1>Textos</h1>
   <nav class="filtro no-print">
-    {grupos.map(([g, label]) => <a href={`#${g}`}>{label}</a>)}
+    {grupos
+      .filter(([g]) => todos.some((t) => t.data.genero === g))
+      .map(([g, label]) => <a href={`#${g}`}>{label}</a>)}
   </nav>
   {grupos.map(([g, label]) => {
     const itens = todos.filter((t) => t.data.genero === g);
