@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { livro: CollectionEntry<'livros'> }
+const { livro } = Astro.props;
+---
+<a class="card livro" href={`/livros/${livro.id}/`}>
+  {livro.data.capa
+    ? <img src={livro.data.capa} alt={`Capa de ${livro.data.titulo}`} />
+    : <div class="capa-vazia"><span>{livro.data.titulo}</span></div>}
+  <h3>{livro.data.titulo}</h3>
+  <p class="meta">{livro.data.sinopse}</p>
+</a>
+<style>
+  .livro { display: block; text-decoration: none; color: inherit; }
+  .livro img, .capa-vazia { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px; }
+  .capa-vazia { display: flex; align-items: center; justify-content: center; background: var(--cor-linha); font-family: var(--fonte-titulo); font-size: 1.3rem; text-align: center; padding: 1rem; }
+  .livro h3 { margin: 0.75rem 0 0.25rem; }
+</style>

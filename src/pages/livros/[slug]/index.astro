@@ -1,0 +1,31 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const livros = await getCollection('livros');
+  return livros.map((l) => ({ params: { slug: l.id }, props: { l } }));
+}
+const { l } = Astro.props;
+const { Content } = await render(l);
+const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
+  .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0));
+---
+<Base title={l.data.titulo}>
+  <article class="prose">
+    <h1>{l.data.titulo}</h1>
+    {l.data.capa && <img src={l.data.capa} alt={`Capa de ${l.data.titulo}`} style="max-width: 240px; border-radius: 4px;" />}
+    <p>{l.data.sinopse}</p>
+    <Content />
+    <p class="no-print">
+      {l.data.pdf && <a class="btn" href={l.data.pdf} download>Baixar PDF</a>}{' '}
+      {l.data.epub && <a class="btn" href={l.data.epub} download>Baixar EPUB</a>}
+    </p>
+    {capitulos.length > 0 && (
+      <section>
+        <h2>Ler online</h2>
+        <ol>{capitulos.map((c) => <li><a href={`/textos/${c.id}/`}>{c.data.titulo}</a></li>)}</ol>
+      </section>
+    )}
+  </article>
+</Base>

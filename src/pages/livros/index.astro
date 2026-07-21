@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import BookCard from '../../components/BookCard.astro';
+const livros = (await getCollection('livros'))
+  .sort((a, b) => a.data.ordem - b.data.ordem);
+---
+<Base title="Livros" wide>
+  <h1>Livros</h1>
+  <p>Todos os livros estão disponíveis gratuitamente — para ler aqui no site ou baixar.</p>
+  <div class="grade">{livros.map((l) => <BookCard livro={l} />)}</div>
+</Base>
+<style>
+  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+</style>

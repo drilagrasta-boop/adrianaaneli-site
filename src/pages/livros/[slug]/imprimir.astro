@@ -1,0 +1,35 @@
+---
+import { getCollection, render } from 'astro:content';
+import '../../../styles/global.css';
+
+export async function getStaticPaths() {
+  const livros = await getCollection('livros');
+  return livros.map((l) => ({ params: { slug: l.id }, props: { l } }));
+}
+const { l } = Astro.props;
+const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
+  .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0));
+const renderizados = await Promise.all(
+  capitulos.map(async (c) => ({ c, Content: (await render(c)).Content }))
+);
+---
+<html lang="pt-BR">
+  <head><meta charset="utf-8" /><title>{l.data.titulo} — Adriana Aneli</title></head>
+  <body class="impressao">
+    <section class="folha-rosto">
+      <h1>{l.data.titulo}</h1>
+      <p>Adriana Aneli</p>
+    </section>
+    {renderizados.map(({ c, Content }) => (
+      <section class="capitulo" class:list={[c.data.genero === 'poema' ? 'poema' : 'prose']}>
+        <h2>{c.data.titulo}</h2>
+        <Content />
+      </section>
+    ))}
+    <style>
+      .impressao { max-width: 40rem; margin: 0 auto; padding: 2rem; }
+      .folha-rosto { text-align: center; page-break-after: always; padding-top: 30vh; }
+      .capitulo { page-break-before: always; }
+    </style>
+  </body>
+</html>
