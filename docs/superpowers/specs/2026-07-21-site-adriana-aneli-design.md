@@ -38,7 +38,9 @@ Início
 
 A página **Início** apresenta a autora em poucas linhas, destaca os livros com capas, lista os textos mais recentes e comunica com clareza: *"toda a obra disponível gratuitamente"*.
 
-Livros conhecidos do site atual (a confirmar com a autora quais entram): *Amor expresso*, *A construção da primavera*, *O Sol da Tarde*, *Tempestade urbana*, *Mitos e lendas*, *Sol de Pirlimpim* (infantil).
+Livros que entram no site (confirmados pela autora): *Amor expresso*, *A construção da primavera*, *O Sol da Tarde*, *Tempestade urbana*, *Mitos e lendas*, *Todas as cores do amor*.
+
+**Exclusão por direitos autorais:** *Sol de Pirlimpim* NÃO será disponibilizado — os direitos pertencem à editora. O site só distribui obras cujos direitos são da própria autora.
 
 ## Visual — clássico literário
 
