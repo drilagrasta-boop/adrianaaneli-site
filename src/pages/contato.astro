@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.config';
+---
+<Base title="Contato">
+  <h1>Contato</h1>
+  <p>Escreva para <a href={`mailto:${SITE.email}`}>{SITE.email}</a>{SITE.instagram && <> ou visite o <a href={SITE.instagram}>Instagram</a></>}.</p>
+  {SITE.formspreeEndpoint ? (
+    <form action={SITE.formspreeEndpoint} method="POST" class="card">
+      <label>Seu nome <input type="text" name="nome" required /></label>
+      <label>Seu e-mail <input type="email" name="email" required /></label>
+      <label>Mensagem <textarea name="mensagem" rows="6" required></textarea></label>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  ) : (
+    <p class="meta">Em breve, formulário de contato direto por aqui.</p>
+  )}
+</Base>
+<style>
+  form { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  label { display: grid; gap: 0.3rem; }
+  input, textarea { font: inherit; padding: 0.5rem; border: 1px solid var(--cor-linha); border-radius: 4px; background: #fff; }
+  button { cursor: pointer; background: none; }
+</style>
