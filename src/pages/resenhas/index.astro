@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+const resenhas = (await getCollection('resenhas'))
+  .sort((a, b) => b.data.data.getTime() - a.data.data.getTime());
+---
+<Base title="Resenhas">
+  <h1>Resenhas</h1>
+  <p>Leituras críticas da autora sobre obras e escritores.</p>
+  <ul class="lista">
+    {resenhas.map((r) => (
+      <li>
+        <a href={`/resenhas/${r.id}/`}>{r.data.titulo}</a>
+        <p class="meta">Sobre <em>{r.data.obra}</em>, de {r.data.autorObra}</p>
+      </li>
+    ))}
+  </ul>
+</Base>
+<style>
+  .lista { list-style: none; padding: 0; }
+  .lista li { padding: 0.9rem 0; border-bottom: 1px solid var(--cor-linha); }
+  .lista a { font-family: var(--fonte-titulo); font-size: 1.25rem; }
+</style>
