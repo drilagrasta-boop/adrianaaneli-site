@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { itens: CollectionEntry<'textos'>[] }
+const { itens } = Astro.props;
+const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema' } as const;
+---
+<ul class="lista">
+  {itens.map((t) => (
+    <li>
+      <a href={`/textos/${t.id}/`}>{t.data.titulo}</a>
+      <span class="meta"> · {rotulo[t.data.genero]}{t.data.youtube ? ' · vídeo' : ''}</span>
+      {t.data.resumo && <p class="meta">{t.data.resumo}</p>}
+    </li>
+  ))}
+</ul>
+<style>
+  .lista { list-style: none; padding: 0; }
+  .lista li { padding: 0.9rem 0; border-bottom: 1px solid var(--cor-linha); }
+  .lista a { font-family: var(--fonte-titulo); font-size: 1.25rem; }
+</style>
