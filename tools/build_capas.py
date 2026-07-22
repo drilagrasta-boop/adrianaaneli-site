@@ -40,6 +40,13 @@ LIVROS = [
         "vinhetas": ["tamareira"],
         "tam": 130,
     },
+    {
+        "slug": "amor-expresso",
+        "titulo": "Amor<br/>expresso",
+        "subtitulo": "minicontos",
+        "vinhetas": ["grao"],
+        "tam": 110,
+    },
 ]
 
 MODELO = """<!doctype html>

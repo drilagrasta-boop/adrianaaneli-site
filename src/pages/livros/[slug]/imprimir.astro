@@ -27,7 +27,7 @@ const capa = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas/$
     {renderizados.map(({ c, Content }) => (
       <section
         class="capitulo"
-        class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica', prefacio: c.data.genero === 'prefacio' }]}
+        class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica', conto: c.data.genero === 'conto', prefacio: c.data.genero === 'prefacio' }]}
         data-vinheta={c.data.vinheta}
       >
         {c.data.genero !== 'poema' && <h2>{c.data.titulo}</h2>}
