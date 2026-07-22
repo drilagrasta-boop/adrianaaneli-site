@@ -12,11 +12,12 @@ com um pouco de graça\
 começa larga separa desfruta\
 vida se agita entre as pernas\
 prédios emoldurados\
-onipresente espaço que voa interage\
+onipresente espaço que voa  interage\
 eterno\
 espasmos se alternam em meu amor\
 eterno\
 mistura a graça separa\
 pernas onipresentes\
-e me larga na rua\
+e me larga na rua
+
 de novo.
