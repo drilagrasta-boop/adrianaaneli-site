@@ -76,7 +76,7 @@ Paciência porque o período é de desintoxicação; eliminando tudo aquilo que 
 
 ---
 
-Há um tigre solto dentro de casa. São vários os cômodos em que ele se esconde. Não se podem domesticar os tigres, principalmente os brancos. Sinuoso, feroz e imprevisível ataca quando menos se espera. O medo é meu tigre branco.
+Há um tigre solto dentro de casa. São vários os cômodos em que ele se esconde. Não se podem domesticar os tigres, principalmente o branco. Sinuoso, feroz e imprevisível ataca quando menos se espera. O medo é meu tigre branco.
 
 Tigres brancos não são encontrados na natureza.
 
