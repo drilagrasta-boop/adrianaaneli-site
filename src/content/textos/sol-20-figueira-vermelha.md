@@ -7,8 +7,6 @@ ordem: 20
 vinheta: sol
 ---
 > *Eles me contaram, Heráclito; eles me contaram que você estava morto. Eles me levaram notícias amargas de ouvir, e lágrimas amargas a derramar. Eu chorei quando lembrei com que frequência você e eu havíamos cansado o sol conversando, e o baixado do céu. (Calímaco, citado por C.Hitchens)*
->
-> *Ellos me contaron, Heráclito; ellos me contaron que tú estabas muerto. Ellos me llevaron noticias amargas de oír, y lágrimas amargas a derramar. Yo lloré cuando recordé con qué frecuencia tú y yo habíamos cansado el sol conversando, e lo bajado del cielo. (Calímaco, citado por C.Hitchens)*
 
 figueira-vermelha\
 história fatal\
