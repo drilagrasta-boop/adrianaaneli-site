@@ -58,7 +58,7 @@ Entre a hostilidade dos carros e o tornozelo torcido, o vento acariciando meu ro
 
 Tenho algo ainda melhor: casaram-se duas amigas. Uniram seus corpos e sua arte.
 
-Moro neste país em que as pessoas constroem família a partir do amor livre. O sol se ocupa da felicidade e a vida floresce em delicadezas.
+Moro neste país em que as pessoas constroem família a partir do amor. O sol se ocupa da felicidade e a vida floresce em delicadezas.
 
 ---
 
