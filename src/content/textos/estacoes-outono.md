@@ -86,6 +86,12 @@ Aprecio o autorretrato que se forma. Arredondado e em tons pastéis, abranda-se 
 
 ---
 
+Do ponto em que parei: seu voo. Flores germinadas nos jardins do útero. Sangue circula; desejo que se derrama quente pelos pensamentos do corpo. O peso da renovação.
+
+Com elas, a continuidade.
+
+---
+
 Gosto do vapor que se forma após o banho quente. Quando a luz atravessa a vidraça, partículas coloridas se equilibram na nuvem morna.
 
 Deusa do amanhecer, vento do Norte, cauda de raposa, valquíria em armadura brilhante... alma dos mortos.
