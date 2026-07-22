@@ -64,6 +64,14 @@ Insistimos mais: a insolência de sobreviver. Para mudar.
 
 ---
 
+Dores insepultas.
+
+*“La tierra voraz espera enamorada.*
+
+*Yo soy um cuerpo que no olvida.”*
+
+---
+
 Perco hoje o meu amigo mais querido. A transitoriedade me atinge com seu soco no estômago.
 
 Busco memórias amenas para aniquilar a sensação. Perda, conheço com intimidade: entorpecimento, inconformismo, desespero, aceitação.
