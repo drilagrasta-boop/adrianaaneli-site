@@ -6,6 +6,24 @@ livro: a-construcao-da-primavera
 ordem: 1
 vinheta: inseto
 ---
+*inverno*
+
+*fruta madura trava a boca*
+
+*cigarro esmagado no cinzeiro da sala*
+
+*no quarto ao lado*
+
+*pende o enforcado*
+
+*teatro de sombras à luz de velas*
+
+*pássaro que escapa pela janela*
+
+*é abatido no voo.*
+
+---
+
 [...] *terra tudo que pisamos*
 
 *de onde brotam flores*
