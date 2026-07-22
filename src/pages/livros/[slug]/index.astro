@@ -12,7 +12,7 @@ const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
   .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0));
 ---
 <Base title={l.data.titulo}>
-  <article class="prose">
+  <article class="prose justificar">
     <h1>{l.data.titulo}</h1>
     {l.data.capa && <img src={l.data.capa} alt={`Capa de ${l.data.titulo}`} style="max-width: 240px; border-radius: 4px;" />}
     {l.data.sinopse && <p>{l.data.sinopse}</p>}

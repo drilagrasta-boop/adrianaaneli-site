@@ -37,8 +37,8 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 
 .prose p { margin: 0 0 1em; }
 .prose em { font-style: italic; }
-.cronica p { text-align: justify; hyphens: auto; }
-.cronica p.meta { text-align: left; }
+.cronica p, .justificar p { text-align: justify; hyphens: auto; }
+.cronica p.meta, .justificar p.meta { text-align: left; }
 
 /* Vinhetas: desenhos miúdos no lugar dos números que separavam os poemas */
 [data-vinheta] hr {
