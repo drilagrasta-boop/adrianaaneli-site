@@ -40,7 +40,6 @@ Coloco na mala destroços do mesmo sempre.
 
 Ainda assim eu vou. Pelas ruas que se cruzam infinitamente, a cidade me acompanhará.
 
-*\*
 
 ---
 

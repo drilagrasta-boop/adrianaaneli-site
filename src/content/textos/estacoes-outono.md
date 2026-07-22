@@ -14,7 +14,6 @@ vinheta: folha
 
 *pássaros desmanchados em nuvens*
 
-*\*
 
 ---
 
