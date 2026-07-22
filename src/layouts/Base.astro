@@ -13,6 +13,7 @@ const { title, description = SITE.descricao, wide = false } = Astro.props;
     <meta name="description" content={description} />
     <title>{title === SITE.nome ? title : `${title} — ${SITE.nome}`}</title>
     <link rel="alternate" type="application/rss+xml" title={SITE.nome} href="/rss.xml" />
+    <meta name="follow.it-verification-code" content="QJ1pvgfr87SzK7ge9Mbt" />
   </head>
   <body>
     <Header />
