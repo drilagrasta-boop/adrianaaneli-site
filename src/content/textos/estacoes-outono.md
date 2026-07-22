@@ -56,7 +56,9 @@ Na rua, assisto novas encenações da mesma tragédia. A miséria impotente test
 
 ---
 
-Sobre a distância entre o céu e a terra estende-se o lençol de estrelas-fantasma. Atendo ao chamado; vozes dos despossuídos, ossos do deserto, cemitérios clandestinos, corpos gelados em água salgada. Aqui e por toda parte a lama insiste.
+Sobre a distância entre o céu e a terra, estende-se o lençol de estrelas-fantasma. Atendo ao chamado; vozes dos despossuídos, ossos do deserto, cemitérios clandestinos, corpos gelados em água salgada. Aqui e por toda parte a lama insiste.
+
+(*“Chile está lejano y es mentira”*)
 
 Insistimos mais: a insolência de sobreviver. Para mudar.
 
