@@ -44,7 +44,7 @@ Inerte, eu não lhe entrego nada.
 
 Frio. Até com o ar condicionado desligado, frio. A ventania de ontem derrubou uma sibipiruna na minha rua. Gigante de pés de barro.
 
-O trânsito ficou impedido. Um homem vende balas em sua cadeira de rodas; deixa-as penduradas nos retrovisores dos carros em fila. Tenho pressa, mas diante da contrariedade abaixo o vidro e deixo algumas moedas caírem em suas mãos. O contato me causa aflição: a sujeira pegajosa e a pele endurecida.
+O trânsito ficou impedido. Um homem vende balas em sua cadeira de rodas; deixa-as penduradas nos retrovisores dos carros. Tenho pressa, mas diante da contrariedade, abaixo o vidro e deixo algumas moedas caírem em suas mãos. O contato me causa aflição: a sujeira pegajosa e a pele endurecida.
 
 Quando o guarda faz sinal para seguir, acelero. Do retrovisor, o pacote de balas se desprende na primeira curva.
 
