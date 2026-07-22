@@ -6,6 +6,9 @@ Requer: npm run build executado antes (usa dist/).
 import re
 import subprocess
 import sys
+import threading
+from functools import partial
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -39,7 +42,9 @@ def main() -> None:
     for md in sorted((RAIZ / "src" / "content" / "textos").glob("*.md")):
         fm = frontmatter(md)
         if fm.get("livro") == slug:
-            capitulos.append((int(fm.get("ordem", 0)), fm["titulo"], fm["_corpo"]))
+            capitulos.append(
+                (int(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"), fm["_corpo"])
+            )
     capitulos.sort()
     if not capitulos:
         sys.exit(f"Nenhum texto associado ao livro '{slug}'.")
@@ -48,7 +53,10 @@ def main() -> None:
     downloads.mkdir(parents=True, exist_ok=True)
 
     # EPUB via pandoc
-    juntado = "\n\n".join(f"# {t}\n\n{corpo}" for _, t, corpo in capitulos)
+    juntado = "\n\n".join(
+        f"# {t}\n\n" + (f"*{autor}*\n\n" if autor else "") + corpo
+        for _, t, autor, corpo in capitulos
+    )
     epub = downloads / f"{slug}.epub"
     subprocess.run(
         ["pandoc", "-f", "markdown", "-o", str(epub),
@@ -58,7 +66,8 @@ def main() -> None:
     )
     print(f"EPUB: {epub}")
 
-    # PDF via Chrome headless sobre a pagina de impressao construida
+    # PDF via Chrome headless sobre a pagina de impressao construida.
+    # Servida por HTTP local: com file:// os assets absolutos (/images/...) nao carregam.
     html = RAIZ / "dist" / "livros" / slug / "imprimir" / "index.html"
     if not html.exists():
         sys.exit("Rode 'npm run build' antes (dist/ nao contem a pagina de impressao).")
@@ -66,11 +75,19 @@ def main() -> None:
     if chrome is None:
         sys.exit("Chrome nao encontrado nos caminhos padrao.")
     pdf = downloads / f"{slug}.pdf"
-    subprocess.run(
-        [str(chrome), "--headless", "--disable-gpu", "--no-pdf-header-footer",
-         f"--print-to-pdf={pdf}", html.as_uri()],
-        check=True,
-    )
+    handler = partial(SimpleHTTPRequestHandler, directory=str(RAIZ / "dist"))
+    servidor = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    porta = servidor.server_address[1]
+    threading.Thread(target=servidor.serve_forever, daemon=True).start()
+    try:
+        subprocess.run(
+            [str(chrome), "--headless", "--disable-gpu", "--no-pdf-header-footer",
+             f"--print-to-pdf={pdf}",
+             f"http://127.0.0.1:{porta}/livros/{slug}/imprimir/"],
+            check=True,
+        )
+    finally:
+        servidor.shutdown()
     print(f"PDF: {pdf}")
     print(f"Agora adicione ao frontmatter de {livro_md.name}:")
     print(f"  pdf: /downloads/{slug}.pdf")
