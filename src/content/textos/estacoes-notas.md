@@ -15,12 +15,6 @@ O texto 4, outono, contém um verso de "A los hombres de la pampa", *Cantata de 
 
 ...
 
-Edição: Scenarium Livros Artesanais
-
-Responsáveis: Lunna Guedes e Marco Antonio Guedes
-
-Ilustrações: Caetano Lagrasta
+Publicação original Scenarium Livros Artesanais, 2016
 
 Revisão: Júlia Bernardes
-
-Projeto gráfico: Lunna Guedes
