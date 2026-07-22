@@ -52,7 +52,6 @@ Coloco na mala destroços do mesmo sempre.
 
 Ainda assim eu vou. Pelas ruas que se cruzam infinitamente, a cidade me acompanhará.
 
-
 ---
 
 Estou numa cidadezinha do interior, na época da eclosão das cigarras. As louveiras do quintal são seu santuário.

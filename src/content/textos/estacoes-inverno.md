@@ -36,8 +36,6 @@ O trânsito ficou impedido. Um homem vende balas em sua cadeira de rodas; deixa-
 
 Quando o guarda faz sinal para seguir, acelero. Do retrovisor, o pacote de balas se desprende na primeira curva.
 
- 
-
 ---
 
 Ainda sobre a queda da árvore. Todos comentam que foi a consequência da reforma no imóvel antigo, onde plantada. Abalou suas raízes.
@@ -55,8 +53,6 @@ Progresso: nossa história em ruínas; sobrevivemos, como uma maquete oca.
 Gripe. O corpo dói por inteiro. Não tomo remédios e deixo a doença seguir seu ciclo.
 
 Padeço o autoconhecimento; não vou apressar as coisas.
-
- 
 
 ---
 
@@ -87,8 +83,6 @@ Por hábito, um dia de descanso no começo de mês ou no dia em que doo sangue.
 Não doei sangue. Voltei sobre passos antigos, à rua em que estudei, num bairro de muito tempo atrás. Não encontrei nenhuma conexão. Antes de desistir, dar meia-volta, avistei um ipê branco, tísico, plantado na ilha da Avenida Domingos de Moraes. Uma adolescente fotografa a planta com admiração: inverno, acinzentado, ainda assim sabe florir.
 
 Recebi sangue novo: seiva correndo em minhas veias.
-
- 
 
 ---
 

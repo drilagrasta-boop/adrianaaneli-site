@@ -9,7 +9,7 @@ ordem: 0
 [...]
 
 > *"Há o perigo de um grito lindíssimo*
-> *quando ondas assim comigo no invisível"*
+> *quando andas assim comigo no invisível"*
 >
 > — In. "Pena Capital", de Mário Cesariny
 
