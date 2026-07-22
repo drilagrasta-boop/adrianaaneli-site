@@ -6,19 +6,19 @@ livro: a-construcao-da-primavera
 ordem: 1
 vinheta: inseto
 ---
-*fruta madura trava a boca*
+fruta madura trava a boca
 
-*cigarro esmagado no cinzeiro da sala*
+cigarro esmagado no cinzeiro da sala
 
-*no quarto ao lado*
+no quarto ao lado
 
-*pende o enforcado*
+pende o enforcado
 
-*teatro de sombras à luz de velas*
+teatro de sombras à luz de velas
 
-*pássaro que escapa pela janela*
+pássaro que escapa pela janela
 
-*é abatido no voo.*
+é abatido no voo.
 
 ---
 
