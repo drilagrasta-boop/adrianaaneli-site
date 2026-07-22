@@ -6,6 +6,10 @@ livro: a-construcao-da-primavera
 ordem: 3
 vinheta: passaro
 ---
+[...] *Quantas flores sobre a terra! Tende piedade das flores caídas. Não se deve varrê-las e misturá-las à lama; mas conservá-las para as abelhas.*
+
+---
+
 paranoica entre eletrodomésticos
 
 aguardo
