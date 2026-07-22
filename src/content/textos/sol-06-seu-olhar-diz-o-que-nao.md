@@ -7,10 +7,10 @@ ordem: 6
 vinheta: sol
 ---
 seu olhar diz o que não devo\
-e ordena despe\
+<span class="par-alinhado"><span class="recuo">e ordena </span>despe</span>\
 seu olhar aprisiona\
 minha culpa\
 deito nua nesse olhar\
 que atravessa\
 rasga\
-desobriga.
+<span class="par-alinhado"><span class="recuo"> </span>desobriga.</span>

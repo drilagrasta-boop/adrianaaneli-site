@@ -1,0 +1,6 @@
+/* Estilos minimos embutidos no EPUB (pandoc --css). */
+
+/* Pares de versos com alinhamento vertical exato ("seu olhar diz o que nao devo"):
+   blocos de largura fixa identica fazem "desobriga." cair exatamente sob "despe". */
+.par-alinhado { display: inline-block; width: 21ch; text-align: left; }
+.recuo { display: inline-block; width: 11ch; }

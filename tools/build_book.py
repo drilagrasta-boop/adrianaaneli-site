@@ -60,6 +60,7 @@ def main() -> None:
     epub = downloads / f"{slug}.epub"
     subprocess.run(
         ["pandoc", "-f", "markdown", "-o", str(epub),
+         "--css", str(RAIZ / "tools" / "epub.css"),
          "--metadata", f"title={titulo}", "--metadata", "author=Adriana Aneli",
          "--metadata", "lang=pt-BR", "--toc"],
         input=juntado, text=True, encoding="utf-8", check=True,

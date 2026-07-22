@@ -87,6 +87,11 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 
 .poema { text-align: center; }
 .poema p { margin: 0 0 1.4em; }
+/* Pares de versos com alinhamento vertical exato (pedido da autora em
+   "seu olhar diz o que não devo"): blocos de largura fixa idêntica fazem
+   "desobriga." cair exatamente sob "despe" mesmo com o poema centralizado. */
+.poema .par-alinhado { display: inline-block; width: 21ch; text-align: left; }
+.poema .recuo { display: inline-block; width: 11ch; }
 .poema .aquarela { max-width: 100%; border-radius: 4px; margin: 0 auto 2rem; display: block; }
 
 .meta { color: var(--cor-tinta-suave); font-size: 0.85rem; letter-spacing: 0.04em; }
