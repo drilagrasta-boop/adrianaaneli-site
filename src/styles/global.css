@@ -92,6 +92,8 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
    "desobriga." cair exatamente sob "despe" mesmo com o poema centralizado. */
 .poema .par-alinhado { display: inline-block; width: 21ch; text-align: left; }
 .poema .recuo { display: inline-block; width: 11ch; }
+/* Poemas com layout próprio, alinhados à esquerda (frontmatter: alinhamento: esquerda) */
+.poema.esquerda { text-align: left; }
 .poema .aquarela { max-width: 100%; border-radius: 4px; margin: 0 auto 2rem; display: block; }
 
 .meta { color: var(--cor-tinta-suave); font-size: 0.85rem; letter-spacing: 0.04em; }
