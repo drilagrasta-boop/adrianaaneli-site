@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import BookCard from '../components/BookCard.astro';
+import Inscricao from '../components/Inscricao.astro';
 const livros = (await getCollection('livros'))
   .sort((a, b) => a.data.ordem - b.data.ordem);
 ---
@@ -13,6 +14,7 @@ const livros = (await getCollection('livros'))
     <h2>Livros</h2>
     <div class="grade">{livros.map((l) => <BookCard livro={l} />)}</div>
   </section>
+  <Inscricao />
 </Base>
 <style>
   .abertura { text-align: center; padding: 2rem 0 1rem; }

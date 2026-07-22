@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Inscricao from '../components/Inscricao.astro';
 import { SITE } from '../site.config';
 ---
 <Base title="Contato">
@@ -15,6 +16,7 @@ import { SITE } from '../site.config';
   ) : (
     <p class="meta">Em breve, formulário de contato direto por aqui.</p>
   )}
+  <Inscricao />
 </Base>
 <style>
   form { display: grid; gap: 1rem; margin-top: 1.5rem; }
