@@ -10,7 +10,7 @@ const textos = defineCollection({
     data: z.coerce.date(),
     livro: z.string().optional(),      // slug do livro de origem
     ordem: z.number().optional(),      // posição no livro
-    vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol']).optional(), // separador gráfico dos poemas
+    vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol', 'tamareira']).optional(), // separador gráfico dos poemas
     aquarela: z.string().optional(),   // ex.: /images/aquarelas/nome.jpg
     youtube: z.string().optional(),    // ID do vídeo, ex.: dQw4w9WgXcQ
     resumo: z.string().optional(),

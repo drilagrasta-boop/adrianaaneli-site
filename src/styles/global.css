@@ -52,6 +52,7 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 [data-vinheta='folha'] hr { background-image: url('/images/vinhetas/folha.svg'); }
 [data-vinheta='inseto'] hr { background-image: url('/images/vinhetas/inseto.svg'); }
 [data-vinheta='sol'] hr { background-image: url('/images/vinhetas/sol.svg'); }
+[data-vinheta='tamareira'] hr { background-image: url('/images/vinhetas/tamareira.svg'); }
 
 .lista-capitulos { list-style: none; padding: 0; }
 .lista-capitulos li { position: relative; padding: 0.45rem 0 0.45rem 1.9rem; }

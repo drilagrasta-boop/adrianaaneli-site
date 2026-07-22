@@ -4,7 +4,7 @@ genero: poema
 data: 2026-07-22
 livro: a-tamareira-da-judeia
 ordem: 1
-vinheta: folha
+vinheta: tamareira
 ---
 > *"[...] Uma semente com cerca de 2.000 anos encontrada no deserto da Judéia foi plantada por cientistas israelenses e germinou"* — [BBC Brasil, 2008](https://www.bbc.com/portuguese/reporterbbc/story/2008/06/080613_tamarasemente_ba)
 
