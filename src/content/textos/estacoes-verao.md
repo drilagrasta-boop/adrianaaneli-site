@@ -6,6 +6,18 @@ livro: a-construcao-da-primavera
 ordem: 3
 vinheta: passaro
 ---
+paranoica entre eletrodomésticos
+
+aguardo
+
+inadequadas raízes se espalham
+
+levanto calçadas
+
+tempestade urbana me desconecta.
+
+---
+
 [...] *mata*
 
 *água de barcos à deriva*
