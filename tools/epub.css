@@ -4,3 +4,9 @@
    blocos de largura fixa identica fazem "desobriga." cair exatamente sob "despe". */
 .par-alinhado { display: inline-block; width: 21ch; text-align: left; }
 .recuo { display: inline-block; width: 11ch; }
+
+/* Prefixo invisivel: repete o trecho de outro verso para comecar exatamente sob ele */
+.fantasma { visibility: hidden; }
+
+/* Titulos de poemas: presentes no sumario, ocultos no corpo do capitulo */
+h1.oculto { display: none; }

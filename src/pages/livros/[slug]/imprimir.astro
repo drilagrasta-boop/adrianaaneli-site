@@ -26,7 +26,7 @@ const renderizados = await Promise.all(
         class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica', prefacio: c.data.genero === 'prefacio', esquerda: c.data.alinhamento === 'esquerda' }]}
         data-vinheta={c.data.vinheta}
       >
-        <h2>{c.data.titulo}</h2>
+        {c.data.genero !== 'poema' && <h2>{c.data.titulo}</h2>}
         {c.data.autor && <p class="meta">{c.data.autor}</p>}
         <Content />
       </section>

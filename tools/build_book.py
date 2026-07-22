@@ -43,7 +43,8 @@ def main() -> None:
         fm = frontmatter(md)
         if fm.get("livro") == slug:
             capitulos.append(
-                (int(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"), fm["_corpo"])
+                (int(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"),
+                 fm.get("genero"), fm["_corpo"])
             )
     capitulos.sort()
     if not capitulos:
@@ -53,9 +54,11 @@ def main() -> None:
     downloads.mkdir(parents=True, exist_ok=True)
 
     # EPUB via pandoc
+    # Poemas: titulo entra no sumario, mas oculto no corpo (classe .oculto do epub.css)
     juntado = "\n\n".join(
-        f"# {t}\n\n" + (f"*{autor}*\n\n" if autor else "") + corpo
-        for _, t, autor, corpo in capitulos
+        f"# {t}" + (" {.oculto}" if genero == "poema" else "") + "\n\n"
+        + (f"*{autor}*\n\n" if autor else "") + corpo
+        for _, t, autor, genero, corpo in capitulos
     )
     epub = downloads / f"{slug}.epub"
     subprocess.run(

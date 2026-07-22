@@ -94,6 +94,8 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 .poema .recuo { display: inline-block; width: 11ch; }
 /* Poemas com layout próprio, alinhados à esquerda (frontmatter: alinhamento: esquerda) */
 .poema.esquerda { text-align: left; }
+/* Prefixo invisível: repete o trecho de outro verso para começar exatamente sob ele */
+.poema .fantasma { visibility: hidden; }
 .poema .aquarela { max-width: 100%; border-radius: 4px; margin: 0 auto 2rem; display: block; }
 
 .meta { color: var(--cor-tinta-suave); font-size: 0.85rem; letter-spacing: 0.04em; }

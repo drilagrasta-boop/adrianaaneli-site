@@ -30,7 +30,7 @@ const proximo = i >= 0 && i < doLivro.length - 1 ? doLivro[i + 1] : null;
       {rotulo[t.data.genero]}
       {livro && <> · do livro <a href={`/livros/${livro.id}/`}>{livro.data.titulo}</a></>}
     </p>
-    <h1>{t.data.titulo}</h1>
+    {!ehPoema && <h1>{t.data.titulo}</h1>}
     {t.data.autor && <p class="meta">{t.data.autor}</p>}
     {t.data.aquarela && <img class="aquarela" src={t.data.aquarela} alt={`Aquarela para ${t.data.titulo}`} />}
     <Content />
