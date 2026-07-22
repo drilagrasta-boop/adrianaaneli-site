@@ -4,7 +4,40 @@ import Base from '../layouts/Base.astro';
 <Base title="Sobre a autora">
   <article class="prose">
     <h1>Sobre a autora</h1>
-    <p><em>[Biografia a ser fornecida pela autora — este texto é provisório
-    e deve ser substituído antes do lançamento.]</em></p>
+    <img
+      class="retrato"
+      src="/images/adriana-aneli.jpg"
+      alt="Retrato de Adriana Aneli"
+      width="800"
+      height="714"
+    />
+    <p>
+      Adriana Aneli Costa Lagrasta é escritora, ilustradora e assistente jurídica,
+      nascida em São Paulo. Concilia a rotina no Tribunal de Justiça do Estado de
+      São Paulo com uma obra literária que transita entre o conto, a crônica, a
+      poesia e a literatura infantil.
+    </p>
+    <p>
+      No Direito, atua em gabinete de Desembargador e especializou-se em Direito de
+      Família e mediação de conflitos, em Sociologia e Política, em Legal Operations
+      e alta performance jurídica e em inteligência artificial generativa aplicada ao
+      Direito. Cursa o mestrado em Teoria Crítica.
+    </p>
+    <p>
+      Na literatura, assina os títulos <em>Amor Expresso</em>, <em>A Construção da
+      Primavera</em>, <em>O Sol da Tarde</em>, <em>Mitos e Lendas: o Amor no Folclore
+      Brasileiro</em> e <em>Sol de Pirlimpim</em>. Idealizou o projeto
+      <em>Tempestade Urbana</em>, comunidade que reúne artistas de diferentes partes
+      do mundo, e escreve para o teatro como dramaturga do grupo Baila Comigo.
+    </p>
   </article>
 </Base>
+<style>
+  .retrato {
+    display: block;
+    max-width: 260px;
+    margin: 0 auto 2rem;
+    border-radius: 6px;
+  }
+  .prose p { text-align: justify; hyphens: auto; }
+</style>
