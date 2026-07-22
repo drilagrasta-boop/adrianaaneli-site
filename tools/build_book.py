@@ -61,13 +61,14 @@ def main() -> None:
         for _, t, autor, genero, corpo in capitulos
     )
     epub = downloads / f"{slug}.epub"
-    subprocess.run(
-        ["pandoc", "-f", "markdown", "-o", str(epub),
-         "--css", str(RAIZ / "tools" / "epub.css"),
-         "--metadata", f"title={titulo}", "--metadata", "author=Adriana Aneli",
-         "--metadata", "lang=pt-BR", "--toc"],
-        input=juntado, text=True, encoding="utf-8", check=True,
-    )
+    args = ["pandoc", "-f", "markdown", "-o", str(epub),
+            "--css", str(RAIZ / "tools" / "epub.css"),
+            "--metadata", f"title={titulo}", "--metadata", "author=Adriana Aneli",
+            "--metadata", "lang=pt-BR", "--toc"]
+    capa = RAIZ / "public" / "images" / "capas" / f"{slug}.png"
+    if capa.exists():
+        args += ["--epub-cover-image", str(capa)]
+    subprocess.run(args, input=juntado, text=True, encoding="utf-8", check=True)
     print(f"EPUB: {epub}")
 
     # PDF via Chrome headless sobre a pagina de impressao construida.
