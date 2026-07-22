@@ -22,7 +22,9 @@ tempestade urbana me desconecta.
 
 ---
 
-A cidade amanheceu vermelha: Viaduto do Chá, Biblioteca Mario de Andrade, Ponte das Bandeiras, Monumento às Bandeiras, Borba Gato, Câmara dos Vereadores, Sala São Paulo, Sede da Secretaria de Desenvolvimento Social, Sede da Secretaria de Saúde,  Fonte do Parque do Ibirapuera, Instituto do Câncer, Memorial da América Latina e Assembleia Legislativa. É uma campanha; doadores de sangue correspondem a apenas 1,9% da população. Faço parte desta minoria, desde os 18 anos, duas vezes ao ano.
+São Paulo amanheceu vermelha: Viaduto do Chá, Biblioteca Mario de Andrade, Ponte das Bandeiras, Monumento às Bandeiras, Borba Gato, Câmara dos Vereadores, Sala São Paulo, Sede da Secretaria de Desenvolvimento Social, Sede da Secretaria de Saúde, Fonte do Parque do Ibirapuera, Instituto do Câncer, Memorial da América Latina e Assembleia Legislativa: é uma campanha.
+
+Doadores de sangue correspondem a apenas 1,9% da população. Faço parte desta minoria, desde os 18 anos, duas vezes ao ano.
 
 Algumas dezenas de vezes em que eu me sinto realmente feliz.
 
