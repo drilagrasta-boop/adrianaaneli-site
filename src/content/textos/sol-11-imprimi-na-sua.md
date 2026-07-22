@@ -9,10 +9,3 @@ imprimi na sua\
 quase sem querer\
 minha pele\
 os corpos se costuram.
-
-—
-
-*imprimí en la su*\
-*casi sin querer*\
-*mi piel*\
-*los cuerpos se cosen.*

@@ -9,10 +9,3 @@ tudo em silêncio\
 casa vazia\
 os móveis fora do lugar\
 (nada se vê nos porta-retratos espalhados pela sala).
-
-—
-
-*todo en silencio*\
-*casa vacía*\
-*los muebles fuera de lugar*\
-*(nada se ve en los portarretratos dispersos por la sala).*

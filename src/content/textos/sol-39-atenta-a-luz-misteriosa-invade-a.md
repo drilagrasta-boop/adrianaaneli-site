@@ -11,12 +11,3 @@ voa alto e se arremessa gira torna a girar\
 cai esgotada\
 útero putrefato matéria cruel\
 em que as asas derretem.
-
-—
-
-*atenta a la luz misteriosa invade la vidriera*\
-*bailarina alada*\
-*vuela alto y se lanza gira vuelve a girar*\
-*cae agotada*\
-*útero putrefacto materia cruel*\
-*en que las alas derriten.*

@@ -20,17 +20,3 @@ taça de vinho vazia espera\
 também eu deito raízes\
 sobre você cresço\
 até seu completo estrangulamento.
-
-—
-
-*higuera roja*\
-*historia fatal*\
-*aves despiertan semillas*\
-*engruesan ramas en torno del árbol*\
-*chispa desencadena el incendio*\
-*encuentro casual*\
-*nombre cambiado hierba*\
-*copa de vino vacía espera*\
-*también yo echo raíces*\
-*sobre ti crezco*\
-*hasta su completo estrangulamiento.*

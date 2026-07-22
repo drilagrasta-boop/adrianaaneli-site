@@ -11,12 +11,3 @@ formigas carregam sonhos picados\
 escalados para papéis secundários\
 aceitamos a correição\
 sem sobressalto.
-
-—
-
-*encarcelados entre debilidades*\
-*envejecemos*\
-*hormigas cargan sueños picados*\
-*escalados para papeles secundarios*\
-*aceptamos la marabunta*\
-*sin sobresalto.*

@@ -10,11 +10,3 @@ risadas recolhidas\
 conversa esquecida no tempo\
 mergulho infinito\
 na boca que se abre.
-
-—
-
-*traigo versos callejeros*\
-*risas recogidas*\
-*charla olvidada en el tiempo*\
-*zabullida infinita*\
-*en la boca que se abre.*

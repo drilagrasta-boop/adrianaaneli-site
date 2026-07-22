@@ -10,11 +10,3 @@ inseto esmagado contra a lâmina de vidro\
 tudo se reveza e confunde neste dia\
 claro\
 a noite vem.
-
-—
-
-*un poco de pólvora aún en los dedos*\
-*insecto aplastado contra la lámina de vidrio*\
-*todo se alterna y confunde en este día*\
-*claro*\
-*la noche viene.*

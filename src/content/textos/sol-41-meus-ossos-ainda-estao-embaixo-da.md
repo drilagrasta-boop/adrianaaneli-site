@@ -13,14 +13,3 @@ cadeiras mesa tapete invade\
 pessoas conversam e riem na sala de jantar\
 desavisado\
 cai em minhas mãos um guardanapo bordado.
-
-—
-
-*mis huesos aún están debajo de la escalera*\
-*fueron dejados allá*\
-*nadie se dio cuenta*\
-*polvo blanco que a los pocos*\
-*sillas mesa alfombra invade*\
-*personas conversan y ríen en el comedor*\
-*desavisado*\
-*cae en mis manos una servilleta bordada.*

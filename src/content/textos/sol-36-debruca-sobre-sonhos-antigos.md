@@ -16,17 +16,3 @@ borboleta pousa nos pés descalços\
 sente a doçura do rio\
 futuro\
 que escapou por entre frestas da sua jaula.
-
-—
-
-*recuesta sobre sueños antiguos*\
-*busca bien*\
-*aparta el polvo que se acostó en los párpados*\
-*ve contra la luz*\
-*ve a través*\
-*en el papel fino manos dibujan el mundo*\
-*él es tuyo*\
-*mariposa posa en los pies descalzos*\
-*siente la dulzura del río*\
-*futuro*\
-*que escapó por entre grietas de su jaula.*

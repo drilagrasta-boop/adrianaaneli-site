@@ -8,9 +8,3 @@ ordem: 42
 eu me reconheço em seu poema\
 nestas tardes\
 em que comemoro o último dia.
-
-—
-
-*yo me reconozco en su poema*\
-*en estas tardes*\
-*en que conmemoro el último día.*

@@ -16,17 +16,3 @@ feri gritei desaprendi a andar\
 me despi de tudo\
 desisti do arrependimento\
 faria tudo de novo.
-
-—
-
-*para no acabar el juego cambié las reglas*\
-*abandoné las calles para velar tu sueño*\
-*crucé la carretera*\
-*acompañé la procesión*\
-*por amor bajé sumergí tan fondo*\
-*vertí el pasado*\
-*desalojé recuerdos*\
-*herí grite desaprendí a andar*\
-*me desnudé de todo*\
-*desistí del arrepentimiento*\
-*haría todo de nuevo.*

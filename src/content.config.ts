@@ -28,24 +28,4 @@ const livros = defineCollection({
   }),
 });
 
-const resenhas = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/resenhas' }),
-  schema: z.object({
-    titulo: z.string(),
-    obra: z.string(),                  // obra resenhada
-    autorObra: z.string(),             // autor da obra resenhada
-    data: z.coerce.date(),
-  }),
-});
-
-const fortuna = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/fortuna' }),
-  schema: z.object({
-    titulo: z.string(),
-    autor: z.string(),                 // quem escreveu sobre a obra dela
-    fonte: z.string().optional(),      // veículo/publicação
-    data: z.coerce.date(),
-  }),
-});
-
-export const collections = { textos, livros, resenhas, fortuna };
+export const collections = { textos, livros };

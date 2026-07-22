@@ -13,14 +13,3 @@ deito nua nesse olhar\
 que atravessa\
 rasga\
 desobriga.
-
-—
-
-*tu mirada dice lo que no debo*\
-*y ordena desviste*\
-*tu mirada aprisiona*\
-*mi culpa*\
-*acuesto desnuda en esa mirada*\
-*que atraviesa*\
-*rasga*\
-*desobliga.*

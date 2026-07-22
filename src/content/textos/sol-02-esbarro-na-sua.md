@@ -10,11 +10,3 @@ quase sem querer\
 minha vida\
 mãos proibidas\
 chegarão até mim?
-
-—
-
-*rozo tu*\
-*casi sin querer*\
-*mi vida*\
-*manos prohibidas*\
-*¿llegarán hasta mí?*

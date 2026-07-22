@@ -10,11 +10,3 @@ caminho nunca possível\
 desperta-me sua voz rosto braços\
 vida geométrica\
 a lógica se derrama.
-
-—
-
-*rosa viento cruz fuego*\
-*camino nunca posible*\
-*me despierta su voz rostro brazos*\
-*vida geométrica*\
-*la lógica se derrama.*

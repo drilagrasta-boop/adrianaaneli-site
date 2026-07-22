@@ -13,14 +13,3 @@ se não puder renovar\
 se não puder viver\
 alguns dias\
 ?
-
-—
-
-*en este proceso nace la libélula*\
-*mil alas sacudiendo*\
-*ilusión peligrosa*\
-*se no puede parar*\
-*se no puede renovar*\
-*se no puede vivir*\
-*algunos días*\
-*?*

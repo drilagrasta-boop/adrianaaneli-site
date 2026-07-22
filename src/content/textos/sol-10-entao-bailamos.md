@@ -13,14 +13,3 @@ fugimos\
 com máscaras multicoloridas alegres penachos rodopios\
 espantalhos da casa de loucos pobremente trajados\
 seguimos às gargalhadas.
-
-—
-
-*entonces bailamos*\
-*bailamos arlequines de nosotros*\
-*ajenos al patíbulo*\
-*tiempo hostil acomplejado*\
-*huimos*\
-*con máscaras multicolor alegres penachos giros*\
-*espantapájaros de la casa de locos pobremente disfrazados*\
-*seguimos a las carcajadas.*

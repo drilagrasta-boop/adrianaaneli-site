@@ -15,16 +15,3 @@ corta o ar a vespa mandarina\
 zumbe até\
 que você esteja\
 totalmente consumido.
-
-—
-
-*mas cuando viene*\
-*mas cuando viene*\
-*desatina*\
-*era así con Camille*\
-*era así con Adele H.*\
-*y conmigo*\
-*corta el aire la avispa mandarina*\
-*zumba hasta*\
-*que tú estés*\
-*totalmente consumido.*

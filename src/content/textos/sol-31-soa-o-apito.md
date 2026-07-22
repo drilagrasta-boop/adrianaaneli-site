@@ -14,15 +14,3 @@ pelo corredor objetos deslocados\
 barulho abafado no andar de baixo\
 dói essa solidão sem propósito\
 acumulada.
-
-—
-
-*suena el silbato*\
-*vigila la calle*\
-*madrugada por debajo de la puerta*\
-*sombras desconectadas de la televisión enchufada*\
-*tropiezo*\
-*por el pasillo objetos desplazados*\
-*barullo ahogado en el piso de abajo*\
-*duele esa soledad sin propósito*\
-*acumulada.*

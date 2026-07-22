@@ -11,12 +11,3 @@ dor apenas muscular palpita\
 suor embaça\
 lágrima quente\
 pura tentação.
-
-—
-
-*con la tragedia aún en los ojos adormece*\
-*en el cuerpo se enredan púas*\
-*dolor apenas muscular palpita*\
-*sudor empaña*\
-*lágrima caliente*\
-*pura tentación.*

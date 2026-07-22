@@ -9,10 +9,3 @@ canteiros cultivados\
 perfume cítrico\
 "família vende tudo"\
 nas caixas de papelão a alma aguarda.
-
-—
-
-*canteros cultivados*\
-*perfume cítrico*\
-*"familia vende todo"*\
-*en las cajas de cartón el alma aguarda.*

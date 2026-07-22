@@ -10,11 +10,3 @@ não podia ser diferente a vida\
 atormentada pelo enredo\
 canta a ária\
 personagem atônita.
-
-—
-
-*no podía ser diferente la vida*\
-*- tengo alma de ópera italiana*\
-*atormentada por el enredo*\
-*canta el aria*\
-*personaje atónito.*

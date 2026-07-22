@@ -18,19 +18,3 @@ dou minha risada\
 somos todos marginais\
 trago bananas\
 dinamite na cintura.
-
-—
-
-*el chico pregunta*\
-*- ¿por qué?*\
-*entre una partida de fútbol y otra*\
-*recojo la lata construyo la casa coso la ropa*\
-*si se lava el parabrisas si se barre la vereda si se cubre el grafito*\
-*[¿remedia?]*\
-*la mugre está tatuada*\
-*circo desfila payaso me pide limosna*\
-*motocicletas baches*\
-*doy mi sonrisa*\
-*somos todos marginales*\
-*traigo bananas*\
-*dinamita en la cintura.*

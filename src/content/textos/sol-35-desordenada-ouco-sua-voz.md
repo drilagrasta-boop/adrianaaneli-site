@@ -10,11 +10,3 @@ leio pensamentos que atravessam a vidraça\
 você me atinge pálido raio de sol\
 vejo a mim neste dia\
 um brinquedo de corda.
-
-—
-
-*desordenada oigo tu voz*\
-*leo pensamientos que atraviesan la ventana*\
-*tú me alcanzas pálido rayo de sol*\
-*veo en mí en este día*\
-*un juguete de cuerda.*

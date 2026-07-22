@@ -17,18 +17,3 @@ veloz tolerante\
 ao distante ao ermo ao precipício\
 você me aguardava silencioso\
 apenas para me dizer.
-
-—
-
-*ciega de mí me perdí*\
-*tanteé*\
-*nube negra*\
-*calma blanca renacida al espectáculo armada y feroz*\
-*ciega de todos los dolores de todos los colores ajena*\
-*flor roja intensa*\
-*veloz tolerante*\
-*a las piedras puntiagudas fui*\
-*- me libraron al capullo*\
-*al distante al desierto al precipicio*\
-*tú me esperabas silencioso*\
-*apenas para decirme.*

@@ -15,16 +15,3 @@ nota a dor\
 olhos traem um reflexo antigo\
 enquanto a poeira se desprega\
 de sua roupa rasgada.
-
-—
-
-*rompe la tierra y se despide de mí*\
-*brota sin consecuencia*\
-*en profusión*\
-*ríe largamente de los que no la acompañan*\
-*nota el dolor*\
-*(pero) no mira para atrás*\
-*- ¿lo que hice de mí es mejor de lo que no fui?*\
-*ojos traen un reflejo antiguo*\
-*mientras el polvo se despega*\
-*de su ropa rasgada.*

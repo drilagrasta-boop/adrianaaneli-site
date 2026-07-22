@@ -8,9 +8,3 @@ ordem: 7
 evaporo\
 estação quente\
 deslizo em gotas sobre você.
-
-—
-
-*evaporo*\
-*estío*\
-*deslizo gota a gota hacia ti.*

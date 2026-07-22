@@ -10,11 +10,3 @@ aguardo\
 inadequadas raízes se espalham\
 levanto calçadas\
 tempestade urbana me desconecta.
-
-—
-
-*paranoica entre electrodomésticos*\
-*aguardo*\
-*inadecuadas raíces se esparcen*\
-*levanto aceras*\
-*tempestad urbana me desconecta.*
