@@ -82,9 +82,9 @@ Também sou colecionadora. Não acumuladora. Há diferenças. Ouço as história
 
 ---
 
-Há uma sombra que se prolonga sobre a terra, incendiando pneus, plantações e o coração da gente. As ruas fervem sua agonia de não tem, não pode, não deve.
+Há uma sombra que se prolonga sobre a terra, incendiando pneus, plantações e o coração da gente. As ruas fervem sua agonia de não ter, não poder, não dever.
 
-Ameaçam nossa liberdade. Não é momento para calar.
+Ameaçam nossa liberdade... não é momento para calar!
 
 ---
 
