@@ -40,6 +40,14 @@ Aguardam-se prisões. Sem julgamento. A liberdade é um sonho roubado.
 
 ---
 
+Ele está certo; do verão amo a tempestade, que estranhamente se antecipa no outono, este ano.
+
+*“Percorria o vidro com a ponta dos dedos, respirava fundo — como quem morre — e misturava o lado de fora ao lado de dentro…”*
+
+Compartilhei desta chuva de hoje… a de sempre… a memória: somos 60% água, matéria líquida aconchegada à passagem do tempo.
+
+---
+
 Está excepcionalmente frio este outono. Há também a névoa densa que não se dissipa.
 
 Na rua, assisto novas encenações da mesma tragédia. A miséria impotente testemunha a ignorância.
