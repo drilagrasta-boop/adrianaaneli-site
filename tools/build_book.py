@@ -82,6 +82,9 @@ def main() -> None:
     try:
         subprocess.run(
             [str(chrome), "--headless", "--disable-gpu", "--no-pdf-header-footer",
+             # Sem virtual time, o Chrome imprime antes de as webfonts carregarem
+             # (font-display: swap) e o PDF sai na fonte de fallback (Georgia).
+             "--virtual-time-budget=10000",
              f"--print-to-pdf={pdf}",
              f"http://127.0.0.1:{porta}/livros/{slug}/imprimir/"],
             check=True,

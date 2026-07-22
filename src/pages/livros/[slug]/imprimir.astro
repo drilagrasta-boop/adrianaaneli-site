@@ -23,7 +23,7 @@ const renderizados = await Promise.all(
     {renderizados.map(({ c, Content }) => (
       <section
         class="capitulo"
-        class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica' }]}
+        class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica', prefacio: c.data.genero === 'prefacio' }]}
         data-vinheta={c.data.vinheta}
       >
         <h2>{c.data.titulo}</h2>
@@ -35,6 +35,7 @@ const renderizados = await Promise.all(
       .impressao { max-width: 40rem; margin: 0 auto; padding: 2rem; }
       .folha-rosto { text-align: center; page-break-after: always; padding-top: 30vh; }
       .capitulo { page-break-before: always; }
+      .prefacio :global(p) { text-align: justify; hyphens: auto; }
     </style>
   </body>
 </html>

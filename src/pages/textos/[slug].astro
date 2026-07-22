@@ -23,7 +23,7 @@ const proximo = i >= 0 && i < doLivro.length - 1 ? doLivro[i + 1] : null;
 ---
 <Base title={t.data.titulo}>
   <article
-    class:list={[ehPoema ? 'poema' : 'prose', { cronica: t.data.genero === 'cronica' }]}
+    class:list={[ehPoema ? 'poema' : 'prose', { cronica: t.data.genero === 'cronica', prefacio: t.data.genero === 'prefacio' }]}
     data-vinheta={t.data.vinheta}
   >
     <p class="meta">

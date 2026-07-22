@@ -7,7 +7,6 @@ const livros = (await getCollection('livros'))
 ---
 <Base title="Adriana Aneli" wide>
   <section class="abertura">
-    <h1>Adriana Aneli</h1>
     <p class="lema">Contos, crônicas e poemas — <strong>toda a obra disponível gratuitamente</strong>.</p>
   </section>
   <section>
@@ -17,7 +16,6 @@ const livros = (await getCollection('livros'))
 </Base>
 <style>
   .abertura { text-align: center; padding: 2rem 0 1rem; }
-  .abertura h1 { font-size: 3rem; margin-bottom: 0.5rem; }
   .lema { font-size: 1.15rem; color: var(--cor-tinta-suave); }
   .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; }
 </style>
