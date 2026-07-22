@@ -3,15 +3,25 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../site.config';
-interface Props { title: string; description?: string; wide?: boolean }
-const { title, description = SITE.descricao, wide = false } = Astro.props;
+interface Props { title: string; description?: string; wide?: boolean; imagem?: string }
+const { title, description = SITE.descricao, wide = false, imagem = '/favicon.png' } = Astro.props;
+const tituloCompleto = title === SITE.nome ? title : `${title} — ${SITE.nome}`;
+const urlAbsoluta = new URL(Astro.url.pathname, Astro.site);
+const imagemAbsoluta = new URL(imagem, Astro.site);
 ---
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <title>{title === SITE.nome ? title : `${title} — ${SITE.nome}`}</title>
+    <title>{tituloCompleto}</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.nome} />
+    <meta property="og:title" content={tituloCompleto} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={urlAbsoluta} />
+    <meta property="og:image" content={imagemAbsoluta} />
+    <meta name="twitter:card" content="summary" />
     <link rel="alternate" type="application/rss+xml" title={SITE.nome} href="/rss.xml" />
     <meta name="follow.it-verification-code" content="QJ1pvgfr87SzK7ge9Mbt" />
   </head>

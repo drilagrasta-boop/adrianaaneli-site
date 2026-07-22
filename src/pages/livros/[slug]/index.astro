@@ -1,4 +1,5 @@
 ---
+import fs from 'node:fs';
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 
@@ -10,8 +11,10 @@ const { l } = Astro.props;
 const { Content } = await render(l);
 const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
   .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0));
+// Ao compartilhar a página do livro, o cartão mostra a capa completa
+const capaOg = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas/${l.id}.png` : undefined;
 ---
-<Base title={l.data.titulo}>
+<Base title={l.data.titulo} imagem={capaOg}>
   <article class="prose justificar">
     <h1>{l.data.titulo}</h1>
     {l.data.capa && <img src={l.data.capa} alt={`Capa de ${l.data.titulo}`} style="max-width: 240px; border-radius: 4px;" />}
