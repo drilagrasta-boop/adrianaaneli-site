@@ -62,7 +62,7 @@ Moro neste país em que as pessoas constroem família a partir do amor. O sol se
 
 ---
 
-Também eu vivo a sorte do amor. Conto tudo a ele. Construímos sobre a base sólida do autoconhecimento.
+Vivo a sorte do amor. Conto tudo a ele. Construímos sobre a base sólida do autoconhecimento.
 
 ---
 
