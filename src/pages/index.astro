@@ -2,12 +2,8 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import BookCard from '../components/BookCard.astro';
-import TextList from '../components/TextList.astro';
 const livros = (await getCollection('livros'))
   .sort((a, b) => a.data.ordem - b.data.ordem);
-const recentes = (await getCollection('textos'))
-  .sort((a, b) => b.data.data.getTime() - a.data.data.getTime())
-  .slice(0, 5);
 ---
 <Base title="Adriana Aneli" wide>
   <section class="abertura">
@@ -17,11 +13,6 @@ const recentes = (await getCollection('textos'))
   <section>
     <h2>Livros</h2>
     <div class="grade">{livros.map((l) => <BookCard livro={l} />)}</div>
-  </section>
-  <section>
-    <h2>Textos recentes</h2>
-    <TextList itens={recentes} />
-    <p><a href="/textos/">Ver todos os textos →</a></p>
   </section>
 </Base>
 <style>
