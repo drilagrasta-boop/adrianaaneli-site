@@ -21,6 +21,7 @@ const livros = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/livros' }),
   schema: z.object({
     titulo: z.string(),
+    subtitulo: z.string().optional(), // gênero exibido no cartão (ex.: minicrônicas, poemas)
     sinopse: z.string().optional(),
     ano: z.number().optional(),
     capa: z.string().optional(),       // ex.: /images/capas/slug.jpg

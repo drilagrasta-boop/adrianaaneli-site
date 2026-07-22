@@ -1,5 +1,6 @@
 ---
 titulo: "O sol da tarde"
+subtitulo: "poemas"
 ordem: 3
 pdf: /downloads/o-sol-da-tarde.pdf
 epub: /downloads/o-sol-da-tarde.epub

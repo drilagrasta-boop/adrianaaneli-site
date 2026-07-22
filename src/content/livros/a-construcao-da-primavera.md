@@ -1,5 +1,6 @@
 ---
 titulo: "A construção da primavera"
+subtitulo: "minicrônicas"
 ano: 2016
 ordem: 2
 pdf: /downloads/a-construcao-da-primavera.pdf
