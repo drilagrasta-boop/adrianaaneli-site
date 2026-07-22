@@ -91,6 +91,40 @@ Cigarras continuam sua melodia. Fico em paz. Ganho um olhar generoso sobre todas
 
 ---
 
+Tomo a decisão: apanhar todos os panfletos que me entregam na rua, não destratar vendedores, caixas, atendentes de telemarketing.
+
+Fim das garantias individuais, extensas jornadas, coerção, violência, ameaça, dívida fraudulenta. O trabalho aviltando o homem, 128 anos após o fim da escravidão.
+
+Análogos: nossa consciência terceirizada.
+
+---
+
+Um carro na rua grita o pancadão em potentes autofalantes. Paredes e janelas vibram.
+
+A música de raiz me entusiasma: a pesquisa histórica de ritmos e a restauração de instrumentos antigos. Villa-Lobos, Mário de Andrade, Christina Pluhar, Yo-Yo Ma, La Petite Bande, Carlinhos Antunes, Rai Anciola, Marcus Pereira — garimpeiros.
+
+Segue a trilha sonora do mundo globalizado. A música eletrônica sugere que daqui a milênios, sem combustível ou energia elétrica, seremos lembrados como uma civilização silenciosa.
+
+---
+
+O som da terra, a memória da água, os protestos do fogo, os recados do vento.
+
+*"Pobre de aquel corazón*
+
+*Que no guarde su esperanza."*
+
+---
+
+Evito cheiros doces, gosto do amadeirado, enlouqueço com os cítricos, minhas memórias remotas.
+
+Infância na praia, brincadeira no quintal; passeio pela manhã, mãos dadas, meu presente.
+
+Respiro fundo. O pulmão se abastece dos melhores pensamentos enquanto a cica floresce.
+
+Plantei uma no quintal. Aguardo, ansiosa, a primeira flor de abacaxi.
+
+---
+
 Mais uma estação que se vai, e com ela vários projetos a que me dediquei este ano. A sensação é de dever cumprido? Há um misto de alívio e de vazio. Quando um ciclo se fecha, é preciso voltar a atenção para as próximas escolhas.
 
 Que o sol saia definitivamente detrás das nuvens. É um desejo.
