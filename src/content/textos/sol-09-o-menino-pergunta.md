@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 9
+vinheta: sol
 ---
 o menino pergunta\
 \- por quê?\

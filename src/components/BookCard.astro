@@ -8,7 +8,7 @@ const { livro } = Astro.props;
     ? <img src={livro.data.capa} alt={`Capa de ${livro.data.titulo}`} />
     : <div class="capa-vazia"><span>{livro.data.titulo}</span></div>}
   <h3>{livro.data.titulo}</h3>
-  <p class="meta">{livro.data.sinopse}</p>
+  {livro.data.sinopse && <p class="meta">{livro.data.sinopse}</p>}
 </a>
 <style>
   .livro { display: block; text-decoration: none; color: inherit; }

@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 18
+vinheta: sol
 ---
 encarcerados entre fraquezas\
 envelhecemos\

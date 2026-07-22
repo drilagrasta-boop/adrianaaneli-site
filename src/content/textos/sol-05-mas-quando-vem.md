@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 5
+vinheta: sol
 ---
 mas quando vem\
 mas quando vem\

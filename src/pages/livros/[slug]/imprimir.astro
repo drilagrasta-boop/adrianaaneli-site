@@ -21,8 +21,13 @@ const renderizados = await Promise.all(
       <p>Adriana Aneli</p>
     </section>
     {renderizados.map(({ c, Content }) => (
-      <section class="capitulo" class:list={[c.data.genero === 'poema' ? 'poema' : 'prose']}>
+      <section
+        class="capitulo"
+        class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica' }]}
+        data-vinheta={c.data.vinheta}
+      >
         <h2>{c.data.titulo}</h2>
+        {c.data.autor && <p class="meta">{c.data.autor}</p>}
         <Content />
       </section>
     ))}

@@ -2,7 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 interface Props { itens: CollectionEntry<'textos'>[] }
 const { itens } = Astro.props;
-const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema' } as const;
+const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema', prefacio: 'Prefácio' } as const;
 ---
 <ul class="lista">
   {itens.map((t) => (

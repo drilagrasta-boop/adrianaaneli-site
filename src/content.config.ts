@@ -5,10 +5,12 @@ const textos = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/textos' }),
   schema: z.object({
     titulo: z.string(),
-    genero: z.enum(['conto', 'cronica', 'poema']),
+    genero: z.enum(['conto', 'cronica', 'poema', 'prefacio']),
+    autor: z.string().optional(),      // quando não é da autora (ex.: prefácio)
     data: z.coerce.date(),
     livro: z.string().optional(),      // slug do livro de origem
     ordem: z.number().optional(),      // posição no livro
+    vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol']).optional(), // separador gráfico dos poemas
     aquarela: z.string().optional(),   // ex.: /images/aquarelas/nome.jpg
     youtube: z.string().optional(),    // ID do vídeo, ex.: dQw4w9WgXcQ
     resumo: z.string().optional(),
@@ -19,7 +21,7 @@ const livros = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/livros' }),
   schema: z.object({
     titulo: z.string(),
-    sinopse: z.string(),
+    sinopse: z.string().optional(),
     ano: z.number().optional(),
     capa: z.string().optional(),       // ex.: /images/capas/slug.jpg
     ordem: z.number().default(99),     // ordem na vitrine

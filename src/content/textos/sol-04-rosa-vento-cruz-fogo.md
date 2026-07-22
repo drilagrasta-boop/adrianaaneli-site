@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 4
+vinheta: sol
 ---
 rosa vento cruz fogo\
 caminho nunca possível\

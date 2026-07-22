@@ -4,6 +4,7 @@ genero: cronica
 data: 2016-01-02
 livro: a-construcao-da-primavera
 ordem: 2
+vinheta: flor
 ---
 *[...] tempestade funda cidades*
 
@@ -15,7 +16,7 @@ ordem: 2
 
 *à semente*
 
-## 1
+---
 
 Sol intenso logo pela manhã. Enxaqueca. Penso que já é primavera e pesquiso para descobrir:
 
@@ -29,7 +30,7 @@ Sol intenso logo pela manhã. Enxaqueca. Penso que já é primavera e pesquiso p
 
 Se o calor se projeta com tanta intensidade no final deste inverno, posso esperar o melhor ano da minha vida acontecer aos 40?
 
-## 2
+---
 
 *"Irei para uma outra terra, para outros mares; encontrarei outra cidade melhor do que esta."*
 
@@ -41,7 +42,7 @@ Ainda assim eu vou. Pelas ruas que se cruzam infinitamente, a cidade me acompanh
 
 *\*
 
-## 3
+---
 
 Estou numa cidadezinha do interior, na época da eclosão das cigarras. As louveiras do quintal são seu santuário.
 
@@ -49,7 +50,7 @@ As ninfas passam um ano embaixo da terra. Sincronizadas, saem do chão todas ao 
 
 É o que temos a fazer, antes que pássaros famintos nos abocanhem.
 
-## 4
+---
 
 Dia de visitas.
 
@@ -57,19 +58,19 @@ No entardecer, também recebo o ouriço cacheiro e uma mariposa gigante.
 
 O ouriço enrola-se sobre si mesmo quando se sente ameaçado. A mariposa voa para longe. Preciso decidir com qual dos dois me identifico.
 
-## 5
+---
 
 Borboleta.
 
 A bússola solar da monarca pulsa. É primavera e o calor me desperta da longa hibernação.
 
-## 6
+---
 
 No laguinho artificial, descubro alevinos escondendo-se nas raízes das plantas. Também os peixes lutam pela sobrevivência. Um gato olha fixamente para a água... Pássaros dão mergulhos certeiros.
 
 Sobre a pedra, o corpo semidevorado do espadinha renova minha crença infantil no bem e no mal.
 
-## 7
+---
 
 O dia amanhece preguiçoso nesta cidade. Bichos e plantas despertam com a luz do sol e seguem seu curso.
 
@@ -77,7 +78,7 @@ No autofalante da cidadezinha anunciam o falecimento. Ouço a música fúnebre, 
 
 Cigarras continuam sua melodia. Fico em paz. Ganho um olhar generoso sobre todas as coisas, sobre a vida.
 
-## 13
+---
 
 Mais uma estação que se vai, e com ela vários projetos a que me dediquei este ano. A sensação é de dever cumprido? Há um misto de alívio e de vazio. Quando um ciclo se fecha, é preciso voltar a atenção para as próximas escolhas.
 

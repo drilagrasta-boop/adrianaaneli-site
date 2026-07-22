@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 29
+vinheta: sol
 ---
 tudo em silêncio\
 casa vazia\

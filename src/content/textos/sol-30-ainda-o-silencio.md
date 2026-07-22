@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 30
+vinheta: sol
 ---
 ainda o silêncio\
 posso sair?\

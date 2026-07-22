@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 15
+vinheta: sol
 ---
 para não acabar o jogo mudei as regras\
 abandonei as ruas para velar seu sono\

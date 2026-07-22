@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 27
+vinheta: sol
 ---
 penetra em tuas veias licor amargo\
 inconcebível\

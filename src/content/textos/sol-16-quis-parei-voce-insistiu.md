@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 16
+vinheta: sol
 ---
 quis parei você insistiu\
 temi vacilei você sorriu\

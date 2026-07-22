@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 13
+vinheta: sol
 ---
 feita de reconstruções abro as asas\
 de cortes profundos\

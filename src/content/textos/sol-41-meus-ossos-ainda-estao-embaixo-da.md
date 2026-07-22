@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 41
+vinheta: sol
 ---
 meus ossos ainda estão embaixo da escada\
 foram deixados lá\

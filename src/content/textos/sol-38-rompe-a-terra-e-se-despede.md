@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 38
+vinheta: sol
 ---
 rompe a terra e se despede de mim\
 brota sem consequência\

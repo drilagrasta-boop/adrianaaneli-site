@@ -15,7 +15,7 @@ const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
   <article class="prose">
     <h1>{l.data.titulo}</h1>
     {l.data.capa && <img src={l.data.capa} alt={`Capa de ${l.data.titulo}`} style="max-width: 240px; border-radius: 4px;" />}
-    <p>{l.data.sinopse}</p>
+    {l.data.sinopse && <p>{l.data.sinopse}</p>}
     <Content />
     <p class="no-print">
       {l.data.pdf && <a class="btn" href={l.data.pdf} download>Baixar PDF</a>}{' '}
@@ -24,7 +24,13 @@ const capitulos = (await getCollection('textos', (t) => t.data.livro === l.id))
     {capitulos.length > 0 && (
       <section>
         <h2>Ler online</h2>
-        <ol>{capitulos.map((c) => <li><a href={`/textos/${c.id}/`}>{c.data.titulo}</a></li>)}</ol>
+        <ul class="lista-capitulos">
+          {capitulos.map((c) => (
+            <li class:list={[c.data.vinheta && `v-${c.data.vinheta}`]}>
+              <a href={`/textos/${c.id}/`}>{c.data.titulo}</a>
+            </li>
+          ))}
+        </ul>
       </section>
     )}
   </article>

@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 21
+vinheta: sol
 ---
 sem conhecer as regras desta fase\
 compro seu ódio com insignificâncias\

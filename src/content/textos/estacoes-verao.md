@@ -4,6 +4,7 @@ genero: cronica
 data: 2016-01-03
 livro: a-construcao-da-primavera
 ordem: 3
+vinheta: passaro
 ---
 [...] *mata*
 
@@ -13,13 +14,13 @@ ordem: 3
 
 *no silêncio de ilhas escondido ar*
 
-## 1
+---
 
 A cidade amanheceu vermelha: Viaduto do Chá, Biblioteca Mario de Andrade, Ponte das Bandeiras, Monumento às Bandeiras, Borba Gato, Câmara dos Vereadores, Sala São Paulo, Sede da Secretaria de Desenvolvimento Social, Sede da Secretaria de Saúde,  Fonte do Parque do Ibirapuera, Instituto do Câncer, Memorial da América Latina e Assembleia Legislativa. É uma campanha; doadores de sangue correspondem a apenas 1,9% da população. Faço parte desta minoria, desde os 18 anos, duas vezes ao ano.
 
 Algumas dezenas de vezes em que eu me sinto realmente feliz.
 
-## 2
+---
 
 O dia quente renova minha vontade. Saio de casa, vou ao mercado, e no final das compras puxo da frente do caixa uma barra de chocolate. A funcionária me pergunta se eu sei o quanto custa... O caixa do lado se aproxima: são R\$ 11,00 só porque é de amêndoas; o tradicional da marca custa apenas R\$ 2,50!
 
@@ -27,57 +28,57 @@ Já vou devolvendo quando a funcionária me diz: -- se comprar, volta aqui para 
 
 Pago pelo chocolate. Abro ali mesmo e digo a eles que vamos descobrir agora se é bom. Compartilhamos o doce. Nossa risada é cortada pela gerente chegando com a bronca.
 
-## 3
+---
 
 Assisto à faxineira do prédio em frente passar as pernas para fora da sacada. Ela limpa a vidraça do 20º andar, sem nenhuma proteção ou segurança. Ligo para os bombeiros, que dizem: -- não podemos fazer nada, senhora.
 
 Saio de casa. Atravesso a rua e aviso o zelador... Vou com calma... Fazer o que é certo.
 
-## 4
+---
 
 Impensável durante o inverno, atravessei a rua. Sol a pino obriga à trégua.
 
 Sei exatamente onde o tigre descansa. A meus pés, ronrona como um gatinho aquecido.
 
-## 5
+---
 
 Integração. Vontade. Mudança. Uma coisa leva a outra e, quando se vê, comprei minha bicicleta.
 
 Entre a hostilidade dos carros e o tornozelo torcido, o vento acariciando meu rosto com liberdade.
 
-## 6
+---
 
 Tenho algo ainda melhor: casaram-se duas amigas. Uniram seus corpos e sua arte.
 
 Moro neste país em que as pessoas constroem família a partir do amor livre. O sol se ocupa da felicidade e a vida floresce em delicadezas.
 
-## 7
+---
 
 Também eu vivo a sorte do amor. Conto tudo a ele. Construímos sobre a base sólida do autoconhecimento.
 
-## 8
+---
 
 Ao redor da mesa, conversam distraídos, todos diferentes em alguma medida. O dia abafado torna inquietos os menores, que correm pela sala.
 
 Observo de longe a bela figura que surge: há vinte anos reúno fragmentos preciosos para o meu mosaico.
 
-## 9
+---
 
 Quando acordo, ela ainda não se despediu da noite. Sai de casa na chuva, às vezes, de pijama. Colecionadora, conhece em detalhes o organismo vivo da cidade em que moramos.
 
 Ainda assim, pede minhas impressões sobre tudo: nosso ritual de divertimento.
 
-## 10
+---
 
 Também sou colecionadora. Não acumuladora. Há diferenças. Ouço as histórias que os objetos contam: desejos e dores humanas testemunhadas em segredo.
 
-## 11
+---
 
 Há uma sombra que se prolonga sobre a terra, incendiando pneus, plantações e o coração da gente. As ruas fervem sua agonia de não tem, não pode, não deve.
 
 Ameaçam nossa liberdade. Não é momento para calar.
 
-## 12
+---
 
 -- Combustível.
 
@@ -89,7 +90,7 @@ Fogo combate fogo. Intolerância contra intolerância.
 
 Não encontro vencedores.
 
-## 13
+---
 
 Uma libélula invade a exposição de esculturas inspiradas no livro *Sobre Lagartas e Borboletas*. Curiosamente, seu nome vem do latim *libellulus*, diminutivo da palavra *liber* e significa "livro".
 

@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
 
@@ -9,15 +9,37 @@ export async function getStaticPaths() {
 }
 const { t } = Astro.props;
 const { Content } = await render(t);
-const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema' } as const;
+const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema', prefacio: 'Prefácio' } as const;
 const ehPoema = t.data.genero === 'poema';
+
+const livro = t.data.livro ? await getEntry('livros', t.data.livro) : null;
+const doLivro = t.data.livro
+  ? (await getCollection('textos', (x) => x.data.livro === t.data.livro))
+      .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0))
+  : [];
+const i = doLivro.findIndex((x) => x.id === t.id);
+const anterior = i > 0 ? doLivro[i - 1] : null;
+const proximo = i >= 0 && i < doLivro.length - 1 ? doLivro[i + 1] : null;
 ---
 <Base title={t.data.titulo}>
-  <article class:list={[ehPoema ? 'poema' : 'prose']}>
-    <p class="meta">{rotulo[t.data.genero]}</p>
+  <article
+    class:list={[ehPoema ? 'poema' : 'prose', { cronica: t.data.genero === 'cronica' }]}
+    data-vinheta={t.data.vinheta}
+  >
+    <p class="meta">
+      {rotulo[t.data.genero]}
+      {livro && <> · do livro <a href={`/livros/${livro.id}/`}>{livro.data.titulo}</a></>}
+    </p>
     <h1>{t.data.titulo}</h1>
+    {t.data.autor && <p class="meta">{t.data.autor}</p>}
     {t.data.aquarela && <img class="aquarela" src={t.data.aquarela} alt={`Aquarela para ${t.data.titulo}`} />}
     <Content />
     {t.data.youtube && <YouTubeEmbed id={t.data.youtube} titulo={t.data.titulo} />}
   </article>
+  {(anterior || proximo) && (
+    <nav class="nav-texto no-print">
+      {anterior ? <a href={`/textos/${anterior.id}/`}>← {anterior.data.titulo}</a> : <span />}
+      {proximo ? <a href={`/textos/${proximo.id}/`}>{proximo.data.titulo} →</a> : <span />}
+    </nav>
+  )}
 </Base>

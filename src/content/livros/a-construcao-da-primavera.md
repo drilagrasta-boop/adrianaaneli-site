@@ -1,6 +1,5 @@
 ---
 titulo: "A construção da primavera"
-sinopse: "Diário das 4 estações: notas em que a metáfora do clima marca o humor da personagem — um percurso pelas quatro estações do ano, do inverno de volta à primavera."
 ano: 2016
 ordem: 2
 pdf: /downloads/a-construcao-da-primavera.pdf

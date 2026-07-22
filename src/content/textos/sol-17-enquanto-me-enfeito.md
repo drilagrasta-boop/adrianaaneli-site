@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 17
+vinheta: sol
 ---
 enquanto me enfeito\
 mancho os lábios na taça de vinho\

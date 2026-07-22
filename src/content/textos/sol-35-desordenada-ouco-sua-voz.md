@@ -4,6 +4,7 @@ genero: poema
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 35
+vinheta: sol
 ---
 desordenada ouço sua voz\
 leio pensamentos que atravessam a vidraça\
