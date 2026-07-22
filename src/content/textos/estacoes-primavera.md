@@ -30,18 +30,6 @@ ao meu desespero.
 
 ---
 
-*[...] tempestade funda cidades*
-
-*desfeitas em pó*
-
-*pegadas eternas*
-
-*do retorno*
-
-*à semente*
-
----
-
 Sol intenso logo pela manhã. Enxaqueca. Penso que já é primavera e pesquiso para descobrir:
 
 -- Inverno: de 21 de junho a 23 de setembro;

@@ -6,14 +6,17 @@ livro: a-construcao-da-primavera
 ordem: 4
 vinheta: folha
 ---
-[...] *brisa sem pressa de engano*
+feito a carvão o sorriso desaparece
 
-*prenúncio de chuva que invade casa e cômodo*
+lápis forçado contra o papel
 
-*assobio sem par no sufoco de pios*
+pretende marcas
 
-*pássaros desmanchados em nuvens*
+hidrocor guache spray tinta para tecido
 
+inútil:
+
+volátil é o tempo.
 
 ---
 

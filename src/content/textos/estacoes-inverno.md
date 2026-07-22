@@ -22,18 +22,6 @@ pássaro que escapa pela janela
 
 ---
 
-[...] *terra tudo que pisamos*
-
-*de onde brotam flores*
-
-*onde brotamos*
-
-*dias a gastar*
-
-*no enterrar mortos*
-
----
-
 O céu está cinza ameaçador e venta. Na rua, um redemoinho carrega destroços da guerra urbana: caixa de sucrilhos, embalagem de sabão em pó, saquinhos de compras e alguns panfletos executam seu balé. Ao final do espetáculo, a chuva cai.
 
 Desço do carro e caminho sob proteção. Um mendigo enrolado em seu cobertor cuida para que não o arraste na calçada imunda. Penso em dar a ele meu guarda-chuva. Ele nota em meus olhos alguma intenção, mas simplesmente passa por mim.
