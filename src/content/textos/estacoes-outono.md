@@ -101,3 +101,15 @@ Minha aurora boreal dura poucos minutos: as lentes que curam a miopia também es
 ---
 
 Encontro paz nas montanhas do Chile. No silêncio gelado, a resignação dos esquecidos.
+
+---
+
+*“… Y me quedo velando*
+
+*por años en la selva*
+
+*tus huesos, tu ceniza,*
+
+*inmóvil, lejos*
+
+*del odio y de la cólera”*
