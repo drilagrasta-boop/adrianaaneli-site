@@ -6,8 +6,6 @@ livro: a-construcao-da-primavera
 ordem: 1
 vinheta: inseto
 ---
-*inverno*
-
 *fruta madura trava a boca*
 
 *cigarro esmagado no cinzeiro da sala*
