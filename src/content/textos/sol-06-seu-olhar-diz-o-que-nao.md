@@ -5,7 +5,6 @@ data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 6
 vinheta: sol
-alinhamento: esquerda
 ---
 seu olhar diz o que não devo\
 <span class="par-alinhado"><span class="recuo">e ordena </span>despe</span>\

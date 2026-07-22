@@ -11,7 +11,6 @@ const textos = defineCollection({
     livro: z.string().optional(),      // slug do livro de origem
     ordem: z.number().optional(),      // posição no livro
     vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol']).optional(), // separador gráfico dos poemas
-    alinhamento: z.enum(['esquerda']).optional(), // poema fora do padrão centralizado
     aquarela: z.string().optional(),   // ex.: /images/aquarelas/nome.jpg
     youtube: z.string().optional(),    // ID do vídeo, ex.: dQw4w9WgXcQ
     resumo: z.string().optional(),

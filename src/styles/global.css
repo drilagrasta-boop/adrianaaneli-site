@@ -85,15 +85,13 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 .nav-texto a { text-decoration: none; }
 .nav-texto a:hover { text-decoration: underline; }
 
-.poema { text-align: center; }
+.poema { text-align: left; }
 .poema p { margin: 0 0 1.4em; }
 /* Pares de versos com alinhamento vertical exato (pedido da autora em
    "seu olhar diz o que não devo"): blocos de largura fixa idêntica fazem
-   "desobriga." cair exatamente sob "despe" mesmo com o poema centralizado. */
+   "desobriga." cair exatamente sob "despe". */
 .poema .par-alinhado { display: inline-block; width: 21ch; text-align: left; }
 .poema .recuo { display: inline-block; width: 11ch; }
-/* Poemas com layout próprio, alinhados à esquerda (frontmatter: alinhamento: esquerda) */
-.poema.esquerda { text-align: left; }
 /* Prefixo invisível: repete o trecho de outro verso para começar exatamente sob ele */
 .poema .fantasma { visibility: hidden; }
 .poema .aquarela { max-width: 100%; border-radius: 4px; margin: 0 auto 2rem; display: block; }

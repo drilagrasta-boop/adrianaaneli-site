@@ -5,7 +5,6 @@ data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 8
 vinheta: sol
-alinhamento: esquerda
 ---
 mistura tudo\
 com um pouco de graça\
