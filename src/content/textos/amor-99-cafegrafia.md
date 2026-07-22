@@ -1,5 +1,5 @@
 ---
-titulo: "cafégrAfia"
+titulo: "cafégrafia"
 genero: cronica
 data: 2015-01-01
 livro: amor-expresso
