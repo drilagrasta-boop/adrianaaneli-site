@@ -15,6 +15,6 @@ O texto 4, outono, contém um verso de "A los hombres de la pampa", *Cantata de 
 
 ...
 
-Publicação original Scenarium Livros Artesanais, 2016
+Publicação original Scenarium Livros Artesanais, 2016, parte integrante da coleção Diário das 4 estações.
 
 Revisão: Júlia Bernardes
