@@ -30,9 +30,9 @@ Algumas dezenas de vezes em que eu me sinto realmente feliz.
 
 ---
 
-O dia quente renova minha vontade. Saio de casa, vou ao mercado, e no final das compras puxo da frente do caixa uma barra de chocolate. A funcionária me pergunta se eu sei o quanto custa... O caixa do lado se aproxima: são R\$ 11,00 só porque é de amêndoas; o tradicional da marca custa apenas R\$ 2,50!
+O dia quente renova minha vontade. Saio de casa, vou ao mercado e, no fim das compras, puxo da frente do caixa uma barra de chocolate. A funcionária me pergunta se eu sei o quanto custa… O caixa do lado se aproxima: — São onze reais só porque é de amêndoas; o tradicional da marca custa apenas dois e cinquenta!
 
-Já vou devolvendo quando a funcionária me diz: -- se comprar, volta aqui para dizer se é bom mesmo? A gente tem vontade, mas falta coragem para comprar.
+Já vou devolvendo quando a funcionária me diz: — se você comprar, volta aqui para dizer se é bom mesmo? A gente tem vontade, mas falta coragem para comprar.
 
 Pago pelo chocolate. Abro ali mesmo e digo a eles que vamos descobrir agora se é bom. Compartilhamos o doce. Nossa risada é cortada pela gerente chegando com a bronca.
 
