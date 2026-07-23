@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 59
-vinheta: carroca
+vinheta: olho
 ---
 sobre a distância entre o céu e a terra\
 estende-se o lençol de estrelas-fantasma\
