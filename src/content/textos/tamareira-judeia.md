@@ -58,6 +58,8 @@ cravar\
 — no minúsculo espaço de si mesmo —\
 a espiral ascendente.
 
+---
+
 É preciso estar atento.\
 Formigas-larvas-fungos-pulgões\
 vão cortar seus suprimentos\
