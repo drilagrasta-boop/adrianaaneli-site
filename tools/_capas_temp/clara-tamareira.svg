@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9bda6" stroke-width="1.2" stroke-linecap="round">
+  <!-- tronco -->
+  <path d="M11.2 20.5 C11.9 17 12.2 13.5 12.3 10.2" stroke-width="1.1"/>
+  <!-- chao -->
+  <path d="M8.5 20.5 H15.2" stroke-width="0.9"/>
+  <!-- folhas em arco -->
+  <path d="M12.3 10 C10.5 8.2 8.2 7.8 6 8.8" stroke-width="1"/>
+  <path d="M12.3 10 C14.2 8.2 16.6 7.8 18.6 8.8" stroke-width="1"/>
+  <path d="M12.3 10 C11 7.8 10.8 5.7 11.8 3.9" stroke-width="1"/>
+  <path d="M12.3 10 C13.4 7.9 13.8 5.9 13.2 4" stroke-width="1"/>
+  <path d="M12.3 10 C10.2 9.4 8 9.9 6.4 11.5" stroke-width="1"/>
+  <path d="M12.3 10 C14.5 9.4 16.6 9.9 18 11.5" stroke-width="1"/>
+  <!-- tamaras -->
+  <circle cx="11.1" cy="11.4" r="0.55" fill="#c9bda6" stroke="none"/>
+  <circle cx="12.1" cy="11.9" r="0.55" fill="#c9bda6" stroke="none"/>
+  <circle cx="13.2" cy="11.5" r="0.55" fill="#c9bda6" stroke="none"/>
+</svg>

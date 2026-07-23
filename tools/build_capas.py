@@ -1,7 +1,7 @@
 """Gera as capas dos livros (PNG 600x900) via Chrome headless.
 
-Estilo: tipografia do site (Cormorant/EB Garamond servidas do node_modules)
-sobre creme, moldura fina e a(s) vinheta(s) do livro em destaque.
+Estilo "tinta" (escolha da autora, 23/07/2026): fundo marrom-escuro (cor do
+texto do site), tipografia e vinhetas creme, moldura fina.
 
 Uso: python tools/build_capas.py
 """
@@ -68,29 +68,29 @@ MODELO = """<!doctype html>
   html, body {{ margin: 0; padding: 0; }}
   body {{
     width: 600px; height: 900px; box-sizing: border-box;
-    background: #fffdf8; color: #2b2620;
+    background: #2b2620; color: #f4eddd;
     font-family: 'EB Garamond', Georgia, serif;
     display: flex; align-items: stretch; justify-content: stretch;
   }}
   .moldura {{
-    flex: 1; margin: 30px; border: 1px solid rgba(122, 59, 46, 0.55);
-    outline: 1px solid #e4dccb; outline-offset: 6px;
+    flex: 1; margin: 30px; border: 1px solid rgba(228, 220, 203, 0.5);
+    outline: 1px solid #57503f; outline-offset: 6px;
     display: flex; flex-direction: column; align-items: center;
     justify-content: space-between; padding: 60px 30px 48px; text-align: center;
   }}
   .autora {{
     font-weight: 600; font-size: 26px; letter-spacing: 0.2em;
-    text-transform: uppercase; color: #6b6156;
+    text-transform: uppercase; color: #c9bda6;
   }}
   .miolo {{ display: flex; flex-direction: column; align-items: center; gap: 34px; }}
   h1 {{
     font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600;
     font-size: 66px; line-height: 1.12; margin: 0;
   }}
-  .subtitulo {{ font-style: italic; font-size: 26px; color: #6b6156; margin: 0; }}
+  .subtitulo {{ font-style: italic; font-size: 26px; color: #c9bda6; margin: 0; }}
   .vinhetas {{ display: flex; gap: 34px; align-items: center; justify-content: center; }}
   .vinhetas img {{ width: {tam}px; height: {tam}px; }}
-  .filete {{ width: 64px; border: 0; border-top: 1px solid rgba(122, 59, 46, 0.55); margin: 0; }}
+  .filete {{ width: 64px; border: 0; border-top: 1px solid rgba(228, 220, 203, 0.5); margin: 0; }}
 </style>
 </head>
 <body>
@@ -124,8 +124,12 @@ def main() -> None:
     threading.Thread(target=servidor.serve_forever, daemon=True).start()
     try:
         for livro in LIVROS:
+            for v in livro["vinhetas"]:
+                original = (RAIZ / "public" / "images" / "vinhetas" / f"{v}.svg").read_text(encoding="utf-8")
+                claro = original.replace("#6b6156", "#c9bda6")
+                (temp / f"clara-{v}.svg").write_text(claro, encoding="utf-8")
             imgs = "".join(
-                f'<img src="/public/images/vinhetas/{v}.svg" alt=""/>'
+                f'<img src="/tools/_capas_temp/clara-{v}.svg" alt=""/>'
                 for v in livro["vinhetas"]
             )
             html = MODELO.format(
