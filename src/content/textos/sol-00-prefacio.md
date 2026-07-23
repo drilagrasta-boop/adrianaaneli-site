@@ -5,7 +5,6 @@ autor: "Anahí Celeste Cao"
 data: 2016-01-01
 livro: o-sol-da-tarde
 ordem: 0
-vinheta: sol
 ---
 > *"... a linguagem é uma das manifestações mais evidentes e universais do princípio do prazer..."*
 > — Ivonne Bordelois, em *La palabra amenazada*
