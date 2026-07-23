@@ -44,7 +44,7 @@ LIVROS = [
         "slug": "amor-expresso",
         "titulo": "Amor<br/>expresso",
         "subtitulo": "50 minicontos sobre o café",
-        "vinhetas": ["grao"],
+        "vinhetas": ["xicara"],  # só na capa; nos separadores do site fica o grão
         "tam": 110,
     },
     {
