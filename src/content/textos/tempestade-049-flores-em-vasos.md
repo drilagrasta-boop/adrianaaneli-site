@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 49
-vinheta: olho
+vinheta: tenda
 ---
 gravuras nas paredes\
 pó cobre o último livro que leu\

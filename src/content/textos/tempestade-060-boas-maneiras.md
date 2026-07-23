@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 60
-vinheta: olho
+vinheta: tenda
 ---
 não sei nem\
 quando\
