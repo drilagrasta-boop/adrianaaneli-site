@@ -1,4 +1,5 @@
 ---
+capa: /images/capas/o-sol-da-tarde.png
 titulo: "O sol da tarde"
 subtitulo: "poemas"
 ordem: 3

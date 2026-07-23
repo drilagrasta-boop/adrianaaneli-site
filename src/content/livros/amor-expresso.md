@@ -1,4 +1,5 @@
 ---
+capa: /images/capas/amor-expresso.png
 titulo: "Amor expresso"
 subtitulo: "50 minicontos sobre o café"
 ano: 2015

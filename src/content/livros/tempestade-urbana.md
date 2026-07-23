@@ -1,4 +1,5 @@
 ---
+capa: /images/capas/tempestade-urbana.png
 titulo: "Tempestade urbana"
 subtitulo: "poemas"
 ordem: 7

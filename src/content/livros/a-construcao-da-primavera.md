@@ -1,4 +1,5 @@
 ---
+capa: /images/capas/a-construcao-da-primavera.png
 titulo: "A construção da primavera"
 subtitulo: "minicrônicas"
 ano: 2016

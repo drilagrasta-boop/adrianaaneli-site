@@ -1,4 +1,5 @@
 ---
+capa: /images/capas/a-tamareira-da-judeia.png
 titulo: "A Tamareira da Judeia"
 subtitulo: "poemas"
 ordem: 5
