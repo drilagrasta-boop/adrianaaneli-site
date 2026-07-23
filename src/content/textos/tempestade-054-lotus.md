@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 54
-vinheta: pomba
+vinheta: carroca
 ---
 das cinzas ressurge\
 desta vez\
