@@ -1,6 +1,6 @@
 ---
 titulo: "Amor expresso"
-subtitulo: "minicontos"
+subtitulo: "50 minicontos sobre o café"
 ano: 2015
 ordem: 6
 pdf: /downloads/amor-expresso.pdf

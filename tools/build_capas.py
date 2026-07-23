@@ -43,7 +43,7 @@ LIVROS = [
     {
         "slug": "amor-expresso",
         "titulo": "Amor<br/>expresso",
-        "subtitulo": "minicontos",
+        "subtitulo": "50 minicontos sobre o café",
         "vinhetas": ["grao"],
         "tam": 110,
     },
