@@ -29,7 +29,7 @@ const capaOg = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas
         <h2>Ler online</h2>
         <ul class="lista-capitulos">
           {capitulos.map((c) => (
-            <li class:list={[c.data.vinheta && `v-${c.data.vinheta}`, { secao: c.data.divisor }]}>
+            <li class:list={[!c.data.divisor && c.data.vinheta && `v-${c.data.vinheta}`, { secao: c.data.divisor }]}>
               {c.data.divisor
                 ? <span>{c.data.titulo}</span>
                 : <a href={`/textos/${c.id}/`}>{c.data.titulo}</a>}
