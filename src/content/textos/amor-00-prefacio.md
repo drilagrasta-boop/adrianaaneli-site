@@ -3,7 +3,7 @@ titulo: "Prefácio"
 genero: prefacio
 data: 2015-01-01
 livro: amor-expresso
-ordem: 1
+ordem: 2
 autor: "Júlio Damásio"
 ---
 O aroma está impregnado no livro “Amor expresso”, pois Adriana Aneli, na medida exata, filtrou seus minicontos até deixá-los com um delicioso sabor. Tem cafezinho rápido, que sela uma nova amizade, outros servidos para um breve bate-papo entre amigos... e há os cafés amargos das lembranças doces. Não importa se a bebida está na mão, na mesa ou no balcão, o café não será coadjuvante, sempre terá participação especial nos enredos da autora. Nada de café malfeito para justificar a proposta: a poesia se mistura ao café. Na obra de Adriana, os espaços, sejam eles sociais ou reclusos, remetem-nos a constantes transformações, ambientes coletivos, públicos ou visceralmente solitários, e que oferecem ao leitor janelas para a vida pulsante. Aqui temos o processo de mutação — ora possível, ora inimaginável — criando histórias que podem ocorrer neste exato momento e em qualquer lugar onde a vida humana se faça presente. É essa a genialidade que torna a literatura universal: um olhar que revela fatos tão humanos e reais, quanto despercebidos, como no conto que dá título ao livro, “Amor expresso”, onde a solidão alia-se à perspectiva de liberdade, ao mesmo tempo em que a personagem anseia pelo retorno a uma nova promessa de amor.
