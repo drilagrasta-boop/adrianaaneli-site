@@ -7,6 +7,7 @@ const rotulo = { conto: 'Conto', cronica: 'Crônica', poema: 'Poema', prefacio: 
 
 export async function GET(context: APIContext) {
   const textos = (await getCollection('textos'))
+    .filter((t) => !t.data.divisor)
     .sort((a, b) => b.data.data.getTime() - a.data.data.getTime());
   return rss({
     title: SITE.nome,

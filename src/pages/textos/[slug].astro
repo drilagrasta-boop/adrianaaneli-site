@@ -5,7 +5,9 @@ import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
 
 export async function getStaticPaths() {
   const textos = await getCollection('textos');
-  return textos.map((t) => ({ params: { slug: t.id }, props: { t } }));
+  return textos
+    .filter((t) => !t.data.divisor)
+    .map((t) => ({ params: { slug: t.id }, props: { t } }));
 }
 const { t } = Astro.props;
 const { Content } = await render(t);
@@ -14,7 +16,7 @@ const ehPoema = t.data.genero === 'poema';
 
 const livro = t.data.livro ? await getEntry('livros', t.data.livro) : null;
 const doLivro = t.data.livro
-  ? (await getCollection('textos', (x) => x.data.livro === t.data.livro))
+  ? (await getCollection('textos', (x) => x.data.livro === t.data.livro && !x.data.divisor))
       .sort((a, b) => (a.data.ordem ?? 0) - (b.data.ordem ?? 0))
   : [];
 const i = doLivro.findIndex((x) => x.id === t.id);

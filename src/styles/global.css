@@ -82,6 +82,15 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 .lista-capitulos li.v-pomba::before { background-image: url('/images/vinhetas/pomba.svg'); }
 .lista-capitulos li.v-taca::before { background-image: url('/images/vinhetas/taca.svg'); }
 .lista-capitulos li.v-horizonte::before { background-image: url('/images/vinhetas/horizonte.svg'); }
+/* Divisórias de seção do livro: cabeçalho, não link */
+.lista-capitulos li.secao {
+  font-family: var(--fonte-titulo);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+  color: var(--cor-tinta-suave);
+  margin-top: 1.6rem;
+}
 
 .nav-texto {
   display: flex;
