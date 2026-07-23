@@ -10,7 +10,8 @@ const textos = defineCollection({
     data: z.coerce.date(),
     livro: z.string().optional(),      // slug do livro de origem
     ordem: z.number().optional(),      // posição no livro
-    vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol', 'tamareira', 'grao']).optional(), // separador gráfico dos poemas
+    vinheta: z.enum(['flor', 'passaro', 'folha', 'inseto', 'sol', 'tamareira', 'grao', 'nuvem', 'pomba', 'taca', 'horizonte']).optional(), // separador gráfico dos poemas
+    mostrarTitulo: z.boolean().optional(), // exceção: poema com título próprio exibido (ex.: Tempestade urbana)
     aquarela: z.string().optional(),   // ex.: /images/aquarelas/nome.jpg
     youtube: z.string().optional(),    // ID do vídeo, ex.: dQw4w9WgXcQ
     resumo: z.string().optional(),

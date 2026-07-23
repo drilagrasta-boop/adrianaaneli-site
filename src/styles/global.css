@@ -54,6 +54,10 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 [data-vinheta='sol'] hr { background-image: url('/images/vinhetas/sol.svg'); }
 [data-vinheta='tamareira'] hr { background-image: url('/images/vinhetas/tamareira.svg'); }
 [data-vinheta='grao'] hr { background-image: url('/images/vinhetas/grao.svg'); }
+[data-vinheta='nuvem'] hr { background-image: url('/images/vinhetas/nuvem.svg'); }
+[data-vinheta='pomba'] hr { background-image: url('/images/vinhetas/pomba.svg'); }
+[data-vinheta='taca'] hr { background-image: url('/images/vinhetas/taca.svg'); }
+[data-vinheta='horizonte'] hr { background-image: url('/images/vinhetas/horizonte.svg'); }
 
 .lista-capitulos { list-style: none; padding: 0; }
 .lista-capitulos li { position: relative; padding: 0.45rem 0 0.45rem 1.9rem; }
@@ -74,6 +78,10 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 .lista-capitulos li.v-sol::before { background-image: url('/images/vinhetas/sol.svg'); }
 .lista-capitulos li.v-tamareira::before { background-image: url('/images/vinhetas/tamareira.svg'); }
 .lista-capitulos li.v-grao::before { background-image: url('/images/vinhetas/grao.svg'); }
+.lista-capitulos li.v-nuvem::before { background-image: url('/images/vinhetas/nuvem.svg'); }
+.lista-capitulos li.v-pomba::before { background-image: url('/images/vinhetas/pomba.svg'); }
+.lista-capitulos li.v-taca::before { background-image: url('/images/vinhetas/taca.svg'); }
+.lista-capitulos li.v-horizonte::before { background-image: url('/images/vinhetas/horizonte.svg'); }
 
 .nav-texto {
   display: flex;

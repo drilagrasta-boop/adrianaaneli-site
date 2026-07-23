@@ -30,7 +30,7 @@ const capa = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas/$
         class:list={[c.data.genero === 'poema' ? 'poema' : 'prose', { cronica: c.data.genero === 'cronica', conto: c.data.genero === 'conto', prefacio: c.data.genero === 'prefacio' }]}
         data-vinheta={c.data.vinheta}
       >
-        {c.data.genero !== 'poema' && <h2>{c.data.titulo}</h2>}
+        {(c.data.genero !== 'poema' || c.data.mostrarTitulo) && <h2>{c.data.titulo}</h2>}
         {c.data.autor && <p class="meta">{c.data.autor}</p>}
         <Content />
       </section>

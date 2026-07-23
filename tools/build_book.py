@@ -42,9 +42,10 @@ def main() -> None:
     for md in sorted((RAIZ / "src" / "content" / "textos").glob("*.md")):
         fm = frontmatter(md)
         if fm.get("livro") == slug:
+            oculto = fm.get("genero") == "poema" and fm.get("mostrarTitulo") != "true"
             capitulos.append(
                 (int(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"),
-                 fm.get("genero"), fm["_corpo"])
+                 oculto, fm["_corpo"])
             )
     capitulos.sort()
     if not capitulos:
@@ -54,11 +55,11 @@ def main() -> None:
     downloads.mkdir(parents=True, exist_ok=True)
 
     # EPUB via pandoc
-    # Poemas: titulo entra no sumario, mas oculto no corpo (classe .oculto do epub.css)
+    # Poemas sem titulo proprio: titulo entra no sumario, mas oculto no corpo
     juntado = "\n\n".join(
-        f"# {t}" + (" {.oculto}" if genero == "poema" else "") + "\n\n"
+        f"# {t}" + (" {.oculto}" if oculto else "") + "\n\n"
         + (f"*{autor}*\n\n" if autor else "") + corpo
-        for _, t, autor, genero, corpo in capitulos
+        for _, t, autor, oculto, corpo in capitulos
     )
     epub = downloads / f"{slug}.epub"
     args = ["pandoc", "-f", "markdown", "-o", str(epub),

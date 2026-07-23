@@ -47,6 +47,13 @@ LIVROS = [
         "vinhetas": ["grao"],
         "tam": 110,
     },
+    {
+        "slug": "tempestade-urbana",
+        "titulo": "Tempestade<br/>urbana",
+        "subtitulo": "poemas",
+        "vinhetas": ["nuvem"],
+        "tam": 120,
+    },
 ]
 
 MODELO = """<!doctype html>
