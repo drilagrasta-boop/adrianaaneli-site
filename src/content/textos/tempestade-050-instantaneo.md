@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 50
-vinheta: tenda
+vinheta: olho
 ---
 céu marrom pela cidade\
 cães embrulhados em seus donos\

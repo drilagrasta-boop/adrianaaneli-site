@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 52
-vinheta: tenda
+vinheta: olho
 ---
 edifícios transformam em escombros\
 a cidade noturna\

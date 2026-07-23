@@ -55,7 +55,7 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 [data-vinheta='tamareira'] hr { background-image: url('/images/vinhetas/tamareira.svg'); }
 [data-vinheta='grao'] hr { background-image: url('/images/vinhetas/grao.svg'); }
 [data-vinheta='nuvem'] hr { background-image: url('/images/vinhetas/nuvem.svg'); }
-[data-vinheta='tenda'] hr { background-image: url('/images/vinhetas/tenda.svg'); }
+[data-vinheta='olho'] hr { background-image: url('/images/vinhetas/olho.svg'); }
 [data-vinheta='taca'] hr { background-image: url('/images/vinhetas/taca.svg'); }
 [data-vinheta='horizonte'] hr { background-image: url('/images/vinhetas/horizonte.svg'); }
 
@@ -79,7 +79,7 @@ main { max-width: var(--largura-leitura); margin: 0 auto; padding: 2rem 1.25rem 
 .lista-capitulos li.v-tamareira::before { background-image: url('/images/vinhetas/tamareira.svg'); }
 .lista-capitulos li.v-grao::before { background-image: url('/images/vinhetas/grao.svg'); }
 .lista-capitulos li.v-nuvem::before { background-image: url('/images/vinhetas/nuvem.svg'); }
-.lista-capitulos li.v-tenda::before { background-image: url('/images/vinhetas/tenda.svg'); }
+.lista-capitulos li.v-olho::before { background-image: url('/images/vinhetas/olho.svg'); }
 .lista-capitulos li.v-taca::before { background-image: url('/images/vinhetas/taca.svg'); }
 .lista-capitulos li.v-horizonte::before { background-image: url('/images/vinhetas/horizonte.svg'); }
 /* Divisórias de seção do livro: cabeçalho, não link, sem vinheta */

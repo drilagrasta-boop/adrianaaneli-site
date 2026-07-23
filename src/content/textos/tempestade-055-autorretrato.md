@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 55
-vinheta: tenda
+vinheta: olho
 ---
 feito a carvão o sorriso desaparece\
 lápis forçado contra o papel\

@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 48
-vinheta: tenda
+vinheta: olho
 ---
 O monstro tem sua beleza\
 Diverso, manca\

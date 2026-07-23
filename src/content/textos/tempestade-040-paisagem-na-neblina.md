@@ -5,7 +5,7 @@ mostrarTitulo: true
 data: 2026-07-23
 livro: tempestade-urbana
 ordem: 40
-vinheta: tenda
+vinheta: olho
 ---
 mendigo no canteiro de flores\
 leilão de cabelos desbotados\
