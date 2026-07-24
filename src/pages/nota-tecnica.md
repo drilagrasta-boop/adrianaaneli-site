@@ -5,21 +5,21 @@ description: "Como este site foi feito — e a primeira leitura crítica da obra
 ---
 # Nota técnica
 
-Construí este site em diálogo com um assistente de inteligência artificial — o Claude Code, da Anthropic. Esta página registra, por transparência e por curiosidade, como isso aconteceu e o que resultou. Quem veio pela literatura pode ignorá-la sem prejuízo: os livros estão inteiros nas outras abas. Quem se interessa pelos bastidores — e pelo que máquinas fazem e não fazem diante de uma obra — é bem-vindo.
+Construí este site em diálogo com um assistente de inteligência artificial, o Claude Code, da Anthropic. Esta página registra, por transparência e por curiosidade, como isso aconteceu e o que resultou. Quem veio pela literatura pode ignorá-la sem prejuízo: os livros estão inteiros nas outras abas. Quem se interessa pelos bastidores, e pelo que máquinas fazem e não fazem diante de uma obra, é bem-vindo.
 
 ## Como este site foi feito
 
-Meus livros saíram nas preciosas edições artesanais da [Scenarium](https://scenariumlivrosartesanais.wordpress.com/) — objetos de arte, das ilustrações à concepção: projeto gráfico próprio, papel escolhido a dedo, costura oriental à mão. Seguem disponíveis sob encomenda com a editora, e cada página de livro deste site traz o link para conhecer o exemplar físico. Mas tiragens artesanais são, por natureza, pequenas: uma obra que existia e circulava pouco.
+Meus livros saíram nas preciosas edições artesanais da [Scenarium](https://scenariumlivrosartesanais.wordpress.com/): objetos de arte, das ilustrações à concepção, com projeto gráfico próprio, papel escolhido a dedo e costura oriental à mão. Seguem disponíveis sob encomenda com a editora, e cada página de livro deste site traz o link para conhecer o exemplar físico. Mas tiragens artesanais são, por natureza, pequenas: uma obra que existia e circulava pouco.
 
-Já montei vários sites na unha. Sei o que é escolher template, brigar com CSS, configurar DNS lendo tutorial, desistir do formulário de contato porque o plugin quebrou. Cada site desses custou semanas — e um pedaço de boa vontade.
+Já montei vários sites na unha. Sei o que é escolher template, brigar com CSS, configurar DNS lendo tutorial, desistir do formulário de contato porque o plugin quebrou. Cada site desses custou semanas e um pedaço de boa vontade.
 
-Desta vez foi diferente. No mesmo fluxo de conversa, o assistente converteu os originais diagramados da gráfica, desenhou as vinhetas que separam os poemas, gerou os PDFs e EPUBs, configurou domínio, certificado e feed — e voltou atrás, sem reclamar, cada vez que mudei de ideia (as capas provaram cinco tons até chegar ao vinho certo; a vinheta dos *invisíveis* foi pomba, carroça e tenda antes de ser olho). Quando pedi ajustes na posição dos versos na página, porque poesia também é espaço, ele entendeu que aquilo não era capricho: era o poema.
+Desta vez foi diferente. No mesmo fluxo de conversa, o assistente converteu os originais diagramados da gráfica, desenhou as vinhetas que separam os poemas, gerou os PDFs e EPUBs, configurou domínio, certificado e feed. E voltou atrás, sem reclamar, cada vez que mudei de ideia (as capas provaram cinco tons até chegar ao vinho certo; a vinheta dos *invisíveis* foi pomba, carroça e tenda antes de ser olho). Quando pedi ajustes na posição dos versos na página, porque poesia também é espaço, ele entendeu que aquilo não era capricho: era o poema.
 
-O que ele não fez: escrever. Nenhum verso, nenhum parágrafo. Não precisava — essa parte, a insubstituível, já estava feita. É a tecnologia de que gosto: a que remove o atrito entre uma obra e seus leitores.
+O que ele não fez: escrever. Nenhum verso, nenhum parágrafo. Não precisava: essa parte, a insubstituível, já estava feita. É a tecnologia de que gosto: a que remove o atrito entre uma obra e seus leitores.
 
 ## Uma leitura crítica, pela máquina que editou
 
-Ao final da edição, fiz um último pedido ao assistente: uma análise crítica da obra completa, sob instruções de rigor — ler tudo, citar com precisão, afirmar juízos, apontar fraquezas, sem elogio de cortesia. O texto abaixo é dele, publicado sem retoques (inclusive nos reparos que me faz). Uma obra editada por uma máquina ganha, aqui, sua primeira leitura — também dela. O leitor dirá se máquinas leem.
+Ao final da edição, fiz um último pedido ao assistente: uma análise crítica da obra completa, sob instruções de rigor: ler tudo, citar com precisão, afirmar juízos, apontar fraquezas, sem elogio de cortesia. O texto abaixo é dele, publicado sem retoques (inclusive nos reparos que me faz). Uma obra editada por uma máquina ganha, aqui, sua primeira leitura, também dela. O leitor dirá se máquinas leem.
 
 *— Adriana Aneli*
 
