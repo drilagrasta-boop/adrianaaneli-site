@@ -9,7 +9,7 @@ Construí este site em diálogo com um assistente de inteligência artificial, o
 
 ## Como este site foi feito
 
-Meus livros saíram nas preciosas edições artesanais da [Scenarium](https://scenariumlivrosartesanais.wordpress.com/) — objetos de arte, das ilustrações à concepção, com projeto gráfico próprio, papel escolhido a dedo e costura oriental à mão. Cada página de livro deste site traz o link para conhecer o exemplar físico. Tiragens artesanais são, por natureza, pequenas: uma obra que existia e circulava pouco.
+Meus livros saíram nas preciosas edições artesanais da Scenarium — objetos de arte, das ilustrações à concepção, com projeto gráfico próprio, papel escolhido a dedo e costura oriental à mão. Cada página de livro deste site traz o link para conhecer o exemplar físico. Tiragens artesanais são, por natureza, pequenas: uma obra que existia e circulava pouco.
 
 Já montei vários sites na unha. Sei o que é escolher template, brigar com CSS, configurar DNS lendo tutorial, desistir do formulário de contato porque o plugin quebrou. Cada site desses custou semanas e um pedaço de boa vontade.
 
