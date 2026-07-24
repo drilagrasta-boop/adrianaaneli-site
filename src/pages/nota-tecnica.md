@@ -5,7 +5,7 @@ description: "Como este site foi feito — e a primeira leitura crítica da obra
 ---
 # Nota técnica
 
-Este site foi construído em diálogo com um assistente de inteligência artificial — o Claude Code, da Anthropic. Esta página registra, por transparência e por curiosidade, como isso aconteceu e o que resultou. Quem veio pela literatura pode ignorá-la sem prejuízo: os livros estão inteiros nas outras abas. Quem se interessa pelos bastidores — e pelo que máquinas fazem e não fazem diante de uma obra — é bem-vindo.
+Construí este site em diálogo com um assistente de inteligência artificial — o Claude Code, da Anthropic. Esta página registra, por transparência e por curiosidade, como isso aconteceu e o que resultou. Quem veio pela literatura pode ignorá-la sem prejuízo: os livros estão inteiros nas outras abas. Quem se interessa pelos bastidores — e pelo que máquinas fazem e não fazem diante de uma obra — é bem-vindo.
 
 ## Como este site foi feito
 
@@ -20,6 +20,8 @@ O que ele não fez: escrever. Nenhum verso, nenhum parágrafo. Não precisava �
 ## Uma leitura crítica, pela máquina que editou
 
 Ao final da edição, fiz um último pedido ao assistente: uma análise crítica da obra completa, sob instruções de rigor — ler tudo, citar com precisão, afirmar juízos, apontar fraquezas, sem elogio de cortesia. O texto abaixo é dele, publicado sem retoques (inclusive nos reparos que me faz). Uma obra editada por uma máquina ganha, aqui, sua primeira leitura — também dela. O leitor dirá se máquinas leem.
+
+*— Adriana Aneli*
 
 ---
 
