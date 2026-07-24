@@ -1,4 +1,5 @@
 ---
+edicaoFisica: https://adrianaaneli.wordpress.com/2021/04/02/amor-expresso/
 capa: /images/capas/amor-expresso.png
 titulo: "Amor expresso"
 subtitulo: "50 minicontos sobre o café"

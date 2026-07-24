@@ -24,6 +24,11 @@ const capaOg = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas
       {l.data.pdf && <a class="btn" href={l.data.pdf} download>Baixar PDF</a>}{' '}
       {l.data.epub && <a class="btn" href={l.data.epub} download>Baixar EPUB</a>}
     </p>
+    {l.data.edicaoFisica && (
+      <p class="meta no-print">
+        Edição artesanal impressa (Scenarium{l.data.ano ? `, ${l.data.ano}` : ''}): <a href={l.data.edicaoFisica}>conheça o livro físico</a> — ilustrado, com projeto gráfico próprio e costura oriental à mão. Disponível sob encomenda com a <a href="https://scenariumlivrosartesanais.wordpress.com/">editora</a>.
+      </p>
+    )}
     {capitulos.length > 0 && (
       <section>
         <h2>Ler online</h2>

@@ -30,6 +30,7 @@ const livros = defineCollection({
     ordem: z.number().default(99),     // ordem na vitrine
     pdf: z.string().optional(),        // ex.: /downloads/slug.pdf
     epub: z.string().optional(),
+    edicaoFisica: z.string().optional(), // URL da página da edição artesanal impressa (blog da autora)
   }),
 });
 

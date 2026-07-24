@@ -1,4 +1,5 @@
 ---
+edicaoFisica: https://adrianaaneli.wordpress.com/2021/04/04/a-construcao-da-primavera/
 capa: /images/capas/a-construcao-da-primavera.png
 titulo: "A construção da primavera"
 subtitulo: "minicrônicas"

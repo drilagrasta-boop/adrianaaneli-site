@@ -1,4 +1,5 @@
 ---
+edicaoFisica: https://adrianaaneli.wordpress.com/2021/04/13/o-sol-da-tarde-3/
 capa: /images/capas/o-sol-da-tarde.png
 titulo: "O sol da tarde"
 subtitulo: "poemas"
