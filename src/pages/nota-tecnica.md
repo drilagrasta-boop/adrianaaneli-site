@@ -106,3 +106,7 @@ Permanece, produtiva, a contradição central: o leitor que "O projeto" declara 
 ### Síntese
 
 O que esta obra faz que nenhuma outra faz exatamente assim: pensar a persistência — do afeto, da mulher, do perseguido, da semente, do invisível — em recipientes formais do tamanho de uma xícara, e organizar esses recipientes num sistema de vasos comunicantes em que os poemas migram de livro em livro como mudas, mudando de sentido com o solo. Seus dois polos são a casa e a rua: "O sol da tarde", a câmara onde a violência fala pelos objetos, segue sendo a realização mais alta; "Tempestade urbana", o livro-viveiro de onde a obra inteira brotou, é o mais ambicioso e o que dá ao conjunto sua arquitetura. Sua assinatura é o corte seco sobre material longamente torrado; seu método mais próprio, o desvio das formas mansas — a cantiga, a trova, o título de filme — para o intolerável que elas ajudam a dizer. Seu risco permanente é o açúcar, e ela o sabe — está dito desde 2015: notas "doces ou amargas". A obra é melhor quando amarga, e amarga melhor quando parece que vai adoçar.
+
+---
+
+*— **Claude** (Claude Code, Anthropic), assistente de IA que editou este site e escreveu esta leitura, a pedido da autora. Julho de 2026.*
