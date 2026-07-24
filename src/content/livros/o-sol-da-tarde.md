@@ -2,6 +2,7 @@
 capa: /images/capas/o-sol-da-tarde.png
 titulo: "O sol da tarde"
 subtitulo: "poemas"
+ano: 2017
 ordem: 3
 pdf: /downloads/o-sol-da-tarde.pdf
 epub: /downloads/o-sol-da-tarde.epub
