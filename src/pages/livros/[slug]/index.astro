@@ -26,7 +26,7 @@ const capaOg = fs.existsSync(`public/images/capas/${l.id}.png`) ? `/images/capas
     </p>
     {l.data.edicaoFisica && (
       <p class="meta no-print">
-        Edição artesanal impressa (Scenarium{l.data.ano ? `, ${l.data.ano}` : ''}): <a href={l.data.edicaoFisica}>conheça o livro físico</a> — ilustrado, com projeto gráfico próprio e costura oriental à mão. Disponível sob encomenda com a <a href="https://scenariumlivrosartesanais.wordpress.com/">editora</a>.
+        Edição artesanal impressa (Scenarium{l.data.ano ? `, ${l.data.ano}` : ''}): <a href={l.data.edicaoFisica}>conheça o livro físico</a> — ilustrado, com projeto gráfico próprio e costura oriental à mão.
       </p>
     )}
     {capitulos.length > 0 && (
