@@ -1,4 +1,5 @@
 ---
+edicaoFisica: https://adrianaaneli.wordpress.com/2021/08/08/colheita/
 capa: /images/capas/a-tamareira-da-judeia.png
 titulo: "A Tamareira da Judeia"
 subtitulo: "poemas"
