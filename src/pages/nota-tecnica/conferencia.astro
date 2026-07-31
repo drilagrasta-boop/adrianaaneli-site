@@ -1,0 +1,186 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const linhas = [
+  ['1', '"fruta madura trava a boca / cigarro esmagado no cinzeiro da sala / no quarto ao lado / pende o enforcado"', 'Abre o Inverno de A construção da primavera; é "longa jornada noite adentro", seção os muros, Tempestade urbana', 'CP, PDF p. 4 (logo após o título "Inverno"); TU, PDF p. 7 (os muros: pp. 4/26)', 'Confere, literal, nos dois livros'],
+  ['2', '"feito a carvão o sorriso desaparece"', 'Abre o Outono de A construção da primavera; é "autorretrato", seção os invisíveis, Tempestade urbana', 'CP, PDF p. 17; TU, PDF p. 43 (os invisíveis: pp. 27/49)', 'Confere, literal, nos dois livros'],
+  ['3', '"ela chega / sol suave sobre flores brancas"', 'Abre a Primavera de A construção da primavera; é "primavera", seção os amantes, Tempestade urbana', 'CP, PDF p. 8; TU, PDF p. 55 (os amantes: pp. 50/66)', 'Confere, literal, nos dois livros'],
+  ['4', '"paranoica entre eletrodomésticos"', 'Poema de abertura do Verão de A construção da primavera; poema 32 de O sol da tarde', 'CP, PDF p. 13; ST, PDF p. 34 (32º poema da sequência)', 'Confere; observação: entre o título "Verão" e o poema há epígrafe (Pierre Louÿs)'],
+  ['5', '"tempestade urbana me desconecta"', 'Verso que nomeia o livro futuro', 'ST, PDF p. 34, e CP, PDF p. 13 (fecho do mesmo poema)', 'Confere'],
+  ['6', '"Confere o cardápio: crepe de chocolate… checa a carteira: café curto."', '"Momento num café", Amor expresso', 'AE, PDF p. 42', 'Confere, literal'],
+  ['7', '"Ela tomou um café. Salgado e frio."', 'Amor expresso (sem localização na Nota)', 'AE, PDF p. 34 (fecho de conto)', 'Confere, literal'],
+  ['8', '"recolho a lata construo a casa costuro a roupa"', 'Poema 9 de O sol da tarde', 'ST, PDF p. 11', 'Confere'],
+  ['9', '"esbarro na sua / quase sem querer / minha vida"', 'Poema 2 de O sol da tarde', 'ST, PDF p. 4', 'Confere'],
+  ['10', '"já não posso dar um passo / sem tropeçar nos seus sapatos"', 'Poema 13 de O sol da tarde', 'ST, PDF p. 15', 'Confere'],
+  ['11', '"mãos deixam de ser mãos / por segurar uma faca?"', 'Poema 21 de O sol da tarde', 'ST, PDF p. 23', 'Confere (a redação da Nota foi reconferida na própria página)'],
+  ['12', '"nada se vê"', 'Poema 29 de O sol da tarde', 'ST, PDF p. 31 ("nada se vê nos porta-retratos espalhados pela sala")', 'Confere'],
+  ['13', '"era assim com Camille / era assim com Adele H. / e comigo"', 'Poema 5 de O sol da tarde', 'ST, PDF p. 7', 'Confere'],
+  ['14', '"seu olhar diz o que não devo / e ordena despe […] rasga / desobriga"', 'Poema 6 de O sol da tarde', 'ST, PDF p. 8', 'Confere'],
+  ['15', '"meus ossos ainda estão embaixo da escada / foram deixados lá"', 'Poema 41 de O sol da tarde', 'ST, PDF p. 43', 'Confere'],
+  ['16', '"eu me reconheço em seu poema / nestas tardes"', 'Fecho de O sol da tarde', 'ST, PDF p. 44 (último poema)', 'Confere'],
+  ['17', '"nuvem preta ascende aos céus / cão aguarda a hora de abanar o rabo"', 'Poema "tempestade urbana", seção os muros', 'TU, PDF p. 5', 'Confere'],
+  ['18', '"o carro / o celular / o modelo da tv / o carro / o celular"', '"poema desabafo", Tempestade urbana', 'TU, PDF p. 11 (os muros)', 'Confere'],
+  ['19', '"arrasta-se a vida que tenho por trás de mim"', 'Continuação de "poema desabafo"', 'TU, PDF p. 11', 'Confere'],
+  ['20', '"– já descobriram água em marte?"', 'Verso final de "e os homens devoram os homens"', 'TU, PDF p. 6', 'Confere; o travessão inicial não aparece na extração de texto (conferir no PDF visual)'],
+  ['21', '"fruta mirrada no pé / pomba cinza alheia à paz / de viver já incapaz / tomba na Praça da Sé"', '"trova urbana", seção os invisíveis', 'TU, PDF p. 30', 'Confere, literal'],
+  ['22', '"era uma casa na calçada / e a lona mal cobria / o homem que ninguém via"', '"era uma casa muito engraçada", os invisíveis', 'TU, PDF p. 31', 'Confere'],
+  ['23', '"papai noel não sabia / – e como poderia? – / mas naquela casa encolhido…"', 'Fecho do mesmo poema', 'TU, PDF p. 31', 'Confere'],
+  ['24', '"feitos de lodo, não barro"', '"proibida a entrada", os invisíveis', 'TU, PDF p. 41', 'Confere'],
+  ['25', '"– por gentileza – / Para a moça apressada"', '"a fantástica fábrica de chocolate"', 'TU, PDF p. 32 (os invisíveis)', 'Confere'],
+  ['26', '"cede passagem à velocidade da moça"', '"cidade invisível"', 'TU, PDF p. 45', 'Confere'],
+  ['27', '"quando ninguém chegou / serviu a si mesma / taça de vinho pra brindar coragem"', '"menu degustação", os amantes', 'TU, PDF p. 65', 'Confere'],
+  ['28', '"bailam os noivos / aterrorizados para sempre"', '"festa de casamento", os amantes', 'TU, PDF p. 61', 'Confere'],
+  ['29', '"mil pedaços […] se revoltam / e se vão em passeata / e te derrubam, querido"', '"autogoverno", os amantes', 'TU, PDF p. 66', 'Confere'],
+  ['30', '"Somos contra / a ideologia de perdedores e ganhadores"', '"poema da diferença", o horizonte', 'TU, PDF p. 68 (o horizonte: pp. 67/88)', 'Confere'],
+  ['31', '"acredito nos gritos das atrizes pornô / na mensagem de natal impressa e assinada"', '"Crendices", o horizonte', 'TU, PDF p. 73', 'Confere'],
+  ['32', '"ah, e acredito em mudanças e aprendizados […] é, eu ainda acredito na vida"', 'Fecho de "Crendices"', 'TU, PDF p. 73', 'Confere'],
+  ['33', '"Minha voz falha / e falha em tudo / salvo na poesia que leio num tom infantil"', '"O grande circo místico", o horizonte', 'TU, PDF p. 75', 'Confere'],
+  ['34', '"Falho em tudo / mas não falha em mim / o poema / que progride como doença"', 'Continuação do mesmo poema', 'TU, PDF pp. 75/76', 'Confere'],
+  ['35', '"mete a língua e retira / da boca / o substantivo e o verbo"', 'Continuação do mesmo poema', 'TU, PDF p. 76', 'Confere'],
+  ['36', '"poesia não tem sexo / entra em qualquer porta de banheiro público […] e desfila na paulista protestando por igualdade"', '"debate amoroso", o horizonte', 'TU, PDF p. 88', 'Confere'],
+  ['37', '"por mãos / femininas e calejadas / suaves e masculinas"', 'Verso de "debate amoroso"', 'TU, PDF p. 88 ("poesia é escrita por mãos…")', 'Confere'],
+  ['38', 'Rubrica "poema a quatro mãos: Paulo Bentancur e Adriana Aneli"', '"vice-versa", Tempestade urbana', 'TU, PDF p. 36', 'Confere'],
+  ['39', '"Desperta / para esta morte-mais"', 'A Tamareira da Judeia; ciclo de sete poemas', 'TJ, PDF p. 2 (citação)', 'Citação confere; a divisão em sete poemas não é verificável na extração de texto (sem numeração visível)'],
+  ['40', '"decompor o silêncio em / sódio e carbono"', 'A Tamareira da Judeia', 'TJ, PDF p. 2', 'Confere'],
+  ['41', '"vão perseguir, intimidar, violentar / vão forçar sua derrocada"', 'Sexto poema de A Tamareira da Judeia', 'TJ, PDF p. 3 (citação)', 'Citação confere; a posição "sexto" não é verificável na extração'],
+  ['42', '"Algum de nós verá a luz do sol."', 'Verso final do sexto poema', 'TJ, PDF p. 4, imediatamente após o item 41', 'Citação e sequência conferem; a numeração do poema não é verificável na extração'],
+  ['43', '"devoram a si mesmos / e se devolvem luz"', '"vaga-lumes", o horizonte, Tempestade urbana', 'TU, PDF p. 84', 'Confere'],
+  ['44', 'Amor expresso é de 2015', 'Afirmação de data', 'Página do livro no site: "Edição artesanal impressa (Scenarium, 2015)"', 'Confere'],
+  ['45', 'A construção da primavera é de 2016', 'Afirmação de data', 'Colofão do PDF: "Publicação original Scenarium Livros Artesanais, 2016"', 'Confere'],
+  ['46', 'Tempestade urbana é de 2021', 'Afirmação de data', 'Página do livro no site: "Edição artesanal impressa (Scenarium, 2021)"', 'Confere'],
+  ['47', 'O corpus tem cinco livros', 'Afirmação enumerável', 'O site lista cinco títulos em /livros/', 'Confere'],
+  ['48', '"O texto do gavião e dos saguis, segundo bloco do Outono, é aqui "cinquenta anos esta noite""', 'Migração da prosa do Outono de A construção da primavera para Tempestade urbana', 'CP, PDF p. 17 ("Emite seu som de alerta: o gavião está na área. Saguis se assanham…"); TU, PDF p. 17 (os muros)', 'Confere, com variações mínimas de redação; escapou à extração inicial e foi acrescentado depois (ver adiante)'],
+];
+---
+<Base
+  title="Conferência da Nota técnica"
+  description="Cotejo literal das afirmações de fato da Nota técnica contra os cinco livros publicados neste site."
+  wide={true}
+>
+  <article class="conferencia">
+    <div class="prosa">
+      <h1>Conferência da Nota técnica</h1>
+      <p class="lede">
+        Cotejo literal das afirmações de fato da <a href="/nota-tecnica/">Nota técnica</a>
+        contra os cinco livros publicados neste site. Executado em 31 de julho de 2026.
+        Esta página registra fatos conferidos, não valida juízos críticos.
+      </p>
+
+      <h2>Método</h2>
+      <p>
+        A conferência seguiu quatro passos. Primeiro, extração das afirmações de fato
+        conferíveis da Nota técnica (citação literal mais localização alegada), por leitura
+        automatizada da página; uma extração corrompida (item 11, uma palavra suprimida pelo
+        leitor automatizado) foi detectada e reconferida diretamente contra a página, que traz
+        a redação correta. Segundo, download dos cinco PDFs oficiais do site. Terceiro,
+        extração do texto integral de cada PDF e busca literal de cada citação, com registro
+        da página em que aparece. Quarto, verificação das afirmações estruturais (que poema
+        abre qual capítulo, seção a que pertence, datas) pela posição do trecho no texto
+        extraído e pelos colofões e páginas do site.
+      </p>
+
+      <h2>Resultado em números</h2>
+      <p>
+        A Nota técnica contém 48 afirmações de fato conferíveis. Todas as 48 foram localizadas
+        nos livros, nenhuma caiu no cotejo. Em detalhe: 43 conferem plenamente; 2 conferem com
+        observação menor (itens 4 e 20); 3 conferem quanto à citação, mas a estrutura alegada
+        não é verificável pela extração de texto (itens 39, 41 e 42: a divisão de
+        <em>A Tamareira da Judeia</em> em sete poemas e a posição "sexto poema" não aparecem na
+        extração, que não preserva numeração nem quebras de poema; a conferir na edição impressa
+        ou no EPUB). O item 48 foi acrescentado depois da primeira contagem, pelo motivo
+        explicado adiante.
+      </p>
+    </div>
+
+    <h2 class="titulo-tabela">Tabela de conferência</h2>
+    <div class="tabela-scroll">
+      <table>
+        <caption>
+          Abreviações: CP = A construção da primavera; ST = O sol da tarde; TU = Tempestade
+          urbana; AE = Amor expresso; TJ = A Tamareira da Judeia. As páginas referem-se aos
+          PDFs publicados neste site.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Nº</th>
+            <th scope="col">Citação ou afirmação</th>
+            <th scope="col">Localização alegada na Nota técnica</th>
+            <th scope="col">Fonte conferida</th>
+            <th scope="col">Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          {linhas.map(([num, citacao, local, fonte, resultado]) => (
+            <tr>
+              <td class="num">{num}</td>
+              <td>{citacao}</td>
+              <td>{local}</td>
+              <td>{fonte}</td>
+              <td>{resultado}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="prosa">
+      <h2>Uma afirmação escapou à extração</h2>
+      <p>
+        O cotejo confirmou uma migração que não constava da lista extraída: a prosa que abre o
+        Outono de <em>A construção da primavera</em> ("Emite seu som de alerta: o gavião está na
+        área. Saguis se assanham…", PDF p. 17) reaparece, com variações mínimas, como o poema
+        "cinquenta anos esta noite" em <em>Tempestade urbana</em> (PDF p. 17, seção
+        <em>os muros</em>).
+      </p>
+      <p>
+        A Nota técnica já cita essa migração, no mesmo parágrafo em que trata dos outros
+        transplantes: "O texto do gavião e dos saguis, segundo bloco do Outono, é aqui
+        'cinquenta anos esta noite'". Não se trata, portanto, de achado novo, e sim de afirmação
+        de fato que a leitura automatizada da página deixou passar na etapa de extração. Está
+        registrada como item 48 da tabela, e confere.
+      </p>
+      <p>
+        O episódio é ele próprio um dado sobre o método, e por isso fica registrado em vez de
+        corrigido em silêncio: a extração automatizada é o elo mais frágil do procedimento, e a
+        lacuna só apareceu quando esta página foi cotejada, por sua vez, contra a Nota técnica.
+        Uma conferência que não se deixa conferir vale pouco.
+      </p>
+
+      <h2>Limites desta conferência</h2>
+      <p>
+        Quatro limites. Primeiro, o verificador também é uma inteligência artificial, da mesma
+        origem da que escreveu a análise; o que sustenta o procedimento é seu caráter mecânico
+        (busca literal de texto) e o registro das páginas, que permite a qualquer pessoa repetir
+        o cotejo por amostragem. Segundo, a extração de texto dos PDFs não preserva quebras de
+        verso, travessões em alguns casos, nem divisões de poema; o cotejo é palavra por palavra,
+        não verso a verso. Terceiro, a numeração dos poemas de <em>O sol da tarde</em> foi
+        inferida da sequência de páginas (poema N igual à página N mais 2); a inferência foi
+        testada em oito itens independentes e conferiu em todos, inclusive no cruzamento do poema
+        32 com o Verão de <em>A construção da primavera</em>. Quarto, esta tabela cobre as
+        afirmações de fato; os juízos críticos da Nota técnica (o que é forte, o que é fraco) não
+        são verificáveis por cotejo e permanecem fora do alcance desta página.
+      </p>
+
+      <p class="voltar"><a href="/nota-tecnica/">← Voltar à Nota técnica</a></p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .prosa { max-width: 42rem; margin: 0 auto; }
+  .prosa p { margin: 0 0 1em; text-align: justify; hyphens: auto; }
+  h1 { font-size: 1.9rem; margin: 0 0 0.4rem; }
+  .lede { font-style: italic; color: var(--cor-tinta-suave); margin-bottom: 2rem; text-align: left; }
+  h2 { font-size: 1.3rem; margin: 2.4rem 0 0.6rem; }
+  .titulo-tabela { max-width: 42rem; margin-inline: auto; }
+
+  .tabela-scroll { overflow-x: auto; margin: 1.2rem 0 0.6rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 46rem; background: var(--cor-papel); font-size: 0.85rem; line-height: 1.45; }
+  caption { caption-side: bottom; text-align: left; font-size: 0.8rem; font-style: italic; color: var(--cor-tinta-suave); padding-top: 0.6rem; }
+  th, td { border: 1px solid var(--cor-linha); padding: 0.45rem 0.55rem; vertical-align: top; text-align: left; }
+  th { background: var(--cor-detalhe); color: var(--cor-fundo); font-weight: 400; font-family: var(--fonte-titulo); }
+  td.num { text-align: right; white-space: nowrap; }
+  tbody tr:nth-child(even) td { background: #f5efe2; }
+
+  .voltar { margin-top: 2.5rem; text-align: left; }
+</style>

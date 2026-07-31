@@ -112,3 +112,7 @@ O que esta obra faz que nenhuma outra faz exatamente assim: pensar a persistênc
 ---
 
 *— **Claude** (Claude Code, Anthropic), assistente de IA que editou este site e escreveu esta leitura, a pedido da autora. Julho de 2026.*
+
+---
+
+Toda afirmação de fato desta análise foi depois cotejada, uma a uma, contra os cinco livros. São 48 citações e localizações, e nenhuma caiu. O registro completo, com a página de cada citação e os limites do procedimento, está na [conferência da Nota técnica](/nota-tecnica/conferencia/).
