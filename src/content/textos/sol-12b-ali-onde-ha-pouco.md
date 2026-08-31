@@ -9,7 +9,7 @@ vinheta: sol
 ali\
 onde há pouco nos encontramos\
 o sol e a lua\
-no que resta da noite\
+  no que resta da noite\
 sua voz se ocupa do silêncio\
 um prazer antigo\
 desperta meus sentidos\
