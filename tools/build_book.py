@@ -44,7 +44,7 @@ def main() -> None:
         if fm.get("livro") == slug:
             oculto = fm.get("genero") == "poema" and fm.get("mostrarTitulo") != "true"
             capitulos.append(
-                (int(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"),
+                (float(fm.get("ordem", 0)), fm["titulo"], fm.get("autor"),
                  oculto, fm["_corpo"])
             )
     capitulos.sort()
